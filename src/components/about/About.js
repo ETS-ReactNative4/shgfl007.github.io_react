@@ -7,8 +7,8 @@ export default class About extends Component {
     return (
       <div className='header-home animated'>
 
-          <h1 class="title">About</h1>
-          <h2 class="description">UX Designer - Creative Coder - Illustrator - Storyteller</h2>
+          <h1 className="title">About</h1>
+          <h2 className="description">UX Designer - Creative Coder - Illustrator - Storyteller</h2>
 
       </div>
     );

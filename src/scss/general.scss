@@ -20,31 +20,29 @@ h4 {
 }
 
 h1 {
-  font-size: 3rem;
-  letter-spacing: -1px;
+  font-size: 60px;
+  letter-spacing: -0.5px;
   color: $beta;
-  font-weight: 700;
+  line-height: 72px;
+  font-weight: 200;
 }
 
 h2 {
-  font-size: 2.2rem;
+  font-size: 48px;
 }
 
 h3 {
-  font-size: 2rem;
+  font-size: 24px;
 }
 
-h4 {
-  font-size: 1.6rem;
-}
 
 a {
   color: $delta;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 p {
-  line-height: 1.7;
+  line-height: 1.5;
   color: $alpha;
   font-weight: 300;
   margin-bottom: 20px;
@@ -157,4 +155,25 @@ pre {
 
 .wrapper-large {
   max-width: 810px;
+}
+
+.main{
+  padding-top: 80px;
+}
+
+.spacing1{
+  max-width: 1000px;
+  margin: auto;
+
+  @include medium{
+    max-width: 744px;
+  }
+
+  @include small{
+    max-width: 368px;
+  }
+
+  @include xsmall{
+    max-width: 100%;
+  }
 }

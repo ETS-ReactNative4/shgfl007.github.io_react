@@ -20,7 +20,7 @@ $small-break-point: 400px; //100%
 }
 
 //small size
-@mixin medium {
+@mixin small {
   @media(min-width: #{$small-break-point}) and (max-width: #{$medium-break-point - 1px}) {
     @content;
   }

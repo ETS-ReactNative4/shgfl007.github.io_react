@@ -1,20 +1,19 @@
 .project-cards{
   display: flex;
   flex-wrap: wrap;
-  max-width: 1000px;
   margin: auto;
   justify-content: space-between;
   h1,h2,h3,p{
-    text-align: left;
+    text-align: center;
   }
 }
 
 .project-card{
-  width: 476px;
+  width: 492px;
   height: 287px;
   background-size: cover;
   background-repeat: no-repeat;
-  margin: 24px 0;
+  margin: 8px 0;
 }
 
 .title-bkg{
@@ -32,4 +31,10 @@
     //background-color: rgba(255,192,0,0.7);
     opacity: 1;
   }
+}
+
+.brief{
+  vertical-align: middle;
+  margin: auto;
+  margin-top: 60px;
 }
