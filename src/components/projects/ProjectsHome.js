@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom';
 
 import {ProjectList} from '../../Constants/Projects'
 export default class Projects extends Component {
-  getProjects(){
-    return ProjectList.map((project)=>
+  getProjects(cs){
+    return cs.map((project)=>
     <div className='project-card spacing1' key={project.title} style={{backgroundImage:`url(${project.img})`}}>
       <Link to={'/projects'+project.link}>
         <div className='title-bkg'>
@@ -19,12 +19,23 @@ export default class Projects extends Component {
   )
   }
 
+  getCS(){
+    return ProjectList.reduce((cs,project)=>{
+      if(project.category.includes('Case Study')){
+        cs.push(project)
+      }
+
+      return cs
+  },[]
+  )
+  }
+
   render() {
     const profile = '../assets/img/profile_new.png';
     return (
       <div className='header-home animated'>
           <div className='project-cards'>
-            {this.getProjects()}
+            {this.getProjects(this.getCS())}
           </div>
 
       </div>

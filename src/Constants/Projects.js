@@ -8,7 +8,7 @@ export const ProjectList = [
     caption:'bridging the disconnection between newcomers and kind hearted locals',
     img: ftBKG, link:'/fairtrade'},
 
-  {title: 'Break a Leg!', category:'Case Study, UX Design, Game Design, Rapid Prototyping', app:'Break A Leg',
+  {title: 'Break a Leg!', category:'Case Study, UX Design, Game Design, Paper Prototyping', app:'Break A Leg',
     caption:'A party game that brings fun to all the players',
     img: gameBKG, link:'/break-a-leg'},
 

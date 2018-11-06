@@ -6,8 +6,8 @@
 
   .link,
   .selfie {
-    width: 125px;
-    margin-bottom: 25px;
+    width: 100px;
+    margin-bottom: 4px;
     border-radius: 100%;
     transition: all 0.2s;
     box-shadow: 0;
@@ -25,12 +25,11 @@
   }
 
   .description {
-    font-size: 1.85rem;
+    font-size: 16px;
     font-weight: 300;
     font-style: normal;
     color: $alpha;
-    width: 70%;
-    margin: 0 auto 30px;
+    margin: 0;
   }
   // if you put some links in your bio. ;)
   a {
@@ -39,5 +38,17 @@
 
   .summary{
     text-align: left;
+  }
+}
+
+.header-split{
+  display: flex;
+
+  .header-split-left{
+    min-width: 300px;
+  }
+
+  .header-split-right{
+    padding: 32px;
   }
 }
