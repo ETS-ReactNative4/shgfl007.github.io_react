@@ -4,11 +4,11 @@ export const ProjectList = [
     caption:'Solve the problem of placing objects in 3D space using 2D editor',
     img: brioBKG, link:'/briovr'},
 
-  {title: 'From Soul Food to Fair Trade', category:'Case Study, UX Design', app:'FairTrde',
+  {title: 'From Soul Food to Fair Trade', category:'Case Study, UX Design', app:'FairTrade',
     caption:'bridging the disconnection between newcomers and kind hearted locals',
     img: ftBKG, link:'/fairtrade'},
 
-  {title: 'Break a Leg!', category:'Case Study, UX Design, Game Design, Paper Prototyping', app:'Break A Leg',
+  {title: 'Paper Prototype for Quick Play Test', category:'Case Study, UX Design, Game Design, Paper Prototyping', app:'Break A Leg',
     caption:'A party game that brings fun to all the players',
     img: gameBKG, link:'/break-a-leg'},
 
@@ -20,7 +20,7 @@ export const ProjectList = [
       caption:'Telling the story behind the temple with a thunsand year history and the visitors',
       img: foguangBKG, link:'/foguang-temple'},
 
-      {title: 'Jump In', category:'Case Study, UX Design, Development', app:'Jump In',
+      {title: 'Know Who Is The Real User', category:'Case Study, UX Design, Development', app:'Jump In',
         caption:'Telling the story behind the temple with a thunsand year history and the visitors',
         img:foguangBKG, link:'/foguang-temple'}
 ]
