@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import {Switch, Route } from 'react-router-dom';
 import Project from './Projects'
-import BRIOVR from './Briovr'
+import BRIOVR from './details/Briovr'
 
 
 export default class ProjectList extends Component {
