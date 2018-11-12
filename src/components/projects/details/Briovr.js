@@ -13,7 +13,7 @@ export default class Briovr extends Component {
             <h3>BRIOVR</h3>
             <p>Solve the problem of placing objects in 3D space using 2D editor</p>
           </div>
-          <div className='project-content'>
+          <div className='project-content animated'>
             <p>BRIOVR is an online platform for people with less 3d experiences
               and no coding experiences to create quick and short 3D interactive
               experience. We found that it’s hard to tell where the object is
@@ -21,9 +21,17 @@ export default class Briovr extends Component {
               users visualize where they are moving/placing objects while
               editing in BRIOVR builder.</p>
 
-            <h3>Team and Roles</h3>
-            <p>For this project, I’m working as the UI/UX designer.
-              I was working with a developer to build this feature for BRIOVR.</p>
+              <h3>Team and Roles</h3>
+              <p>For this project, I’m working as the UI/UX designer.
+                I was working with a developer to build this feature for BRIOVR.</p>
+
+              <div className='section-block'>
+                <h3>Challenge</h3>
+                <p>The challenge for this project was to understand how our users
+                use the 2D editor we provide via BRIOVR to create in a 3D space.</p>
+              </div>
+
+
 
             <h3>Discovery</h3>
             <p>Market research: I researched apps and software that allows users
@@ -33,6 +41,8 @@ export default class Briovr extends Component {
               understand the 3d space they are working in, but for people with
               less 3d experience, there is a learning curve in it,
               which is not what we want for brio.</p>
+            <h4>Personas</h4>
+            <p></p>
 
             <h3>Prototyping and tests</h3>
             <p>The prototype stage had 2 stages. Stage 1 is 2D prototyping.
@@ -43,12 +53,12 @@ export default class Briovr extends Component {
               a plane to represent the bottom of the indicator. This stage also
               includes prototyping the animation.</p>
             <p>For the testing stage, I wanted to know if the indicator can:
-              <ul>
-                <li>Be visible with any background colour</li>
-                <li>Represent where the 3d object is (x,y,z direction)</li>
-                <li>Be easily understood by users with less 3d experiences</li>
-              </ul>
             </p>
+            <ul>
+              <li>Be visible with any background colour</li>
+              <li>Represent where the 3d object is (x,y,z direction)</li>
+              <li>Be easily understood by users with less 3d experiences</li>
+            </ul>
 
             <h3>Detailed Design</h3>
 

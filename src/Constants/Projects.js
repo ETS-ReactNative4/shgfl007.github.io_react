@@ -5,7 +5,7 @@ export const ProjectList = [
     img: brioBKG, link:'/briovr'},
 
   {title: 'From Soul Food to Fair Trade', category:'Case Study, UX Design', app:'FairTrade',
-    caption:'bridging the disconnection between newcomers and kind hearted locals',
+    caption:'Bridging the disconnection between newcomers and kind hearted locals',
     img: ftBKG, link:'/fairtrade'},
 
   {title: 'Paper Prototype for Quick Play Test', category:'Case Study, UX Design, Game Design, Paper Prototyping', app:'Break A Leg',

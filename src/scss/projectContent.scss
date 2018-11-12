@@ -5,11 +5,18 @@
 .project-content{
   max-width: 700px;
   margin: auto;
-
+  text-align: left;
 
   p{
     text-align: left;
     color: $black;
     font-weight: 400;
   }
+}
+
+.section-block{
+  border: 2px solid $yellow;
+  border-radius: 4px;
+  padding: 16px;
+
 }

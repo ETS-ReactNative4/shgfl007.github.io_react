@@ -10,6 +10,7 @@ export default class Projects extends Component {
       <Link to={'/projects'+project.link}>
         <div className='title-bkg'>
           <h3>{project.app}</h3>
+          <hr/>
           <h3>{project.title}</h3>
           <p>{project.category}</p>
         </div>
