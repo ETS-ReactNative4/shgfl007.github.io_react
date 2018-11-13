@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {brioBKG} from '../../../Constants/Image'
+import {brioBKG, briop1} from '../../../Constants/Image'
 
 
 export default class Briovr extends Component {
@@ -41,8 +41,13 @@ export default class Briovr extends Component {
               understand the 3d space they are working in, but for people with
               less 3d experience, there is a learning curve in it,
               which is not what we want for brio.</p>
-            <h4>Personas</h4>
-            <p></p>
+            <div className='persona-section'>
+              <h4>Personas</h4>
+              <img src={briop1} />
+              <h5>Tony, Designer, Tech Savy</h5>
+              <h5><span>Age</span>25 to 34 years</h5>
+              <p>Tony works in the technology industry as a designer. </p>
+            </div>
 
             <h3>Prototyping and tests</h3>
             <p>The prototype stage had 2 stages. Stage 1 is 2D prototyping.
