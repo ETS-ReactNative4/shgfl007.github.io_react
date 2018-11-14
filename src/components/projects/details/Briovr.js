@@ -41,12 +41,21 @@ export default class Briovr extends Component {
               understand the 3d space they are working in, but for people with
               less 3d experience, there is a learning curve in it,
               which is not what we want for brio.</p>
+            <h4>Personas</h4>
             <div className='persona-section'>
-              <h4>Personas</h4>
-              <img src={briop1} />
-              <h5>Tony, Designer, Tech Savy</h5>
-              <h5><span>Age</span>25 to 34 years</h5>
-              <p>Tony works in the technology industry as a designer. </p>
+
+              <div className='persona-card'>
+                <img src={briop1} />
+                <h5>Tony</h5><h5>Interaction Designer, Tech Savy</h5>
+                <h5>34 Years Old</h5>
+                <p>Tony works in the technology industry as a designer. </p>
+              </div>
+              <div className='persona-card'>
+                <img src={briop1} />
+                <h5>Amy</h5><h5>Student</h5>
+                <h5>20 Years Old</h5>
+                <p>Amy is a college student that is learning new </p>
+              </div>
             </div>
 
             <h3>Prototyping and tests</h3>
