@@ -1,5 +1,7 @@
 import brioBKG from '../assets/projects/briovr/Indicator.png'
 import briop1 from '../assets/projects/briovr/brioP1.svg'
+import briop2 from '../assets/projects/briovr/brioP2.svg'
+
 
 import ftBKG from '../assets/projects/fairtrade/fairtrade.png'
 import gameBKG from '../assets/projects/game/rulebkg.jpg'
@@ -8,4 +10,4 @@ import profile from '../assets/img/profile_new.png'
 
 
 
-export {brioBKG,briop1, ftBKG, gameBKG, foguangBKG, profile}
+export {brioBKG,briop1,briop2, ftBKG, gameBKG, foguangBKG, profile}

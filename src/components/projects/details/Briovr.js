@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {brioBKG, briop1} from '../../../Constants/Image'
+import {brioBKG, briop1, briop2} from '../../../Constants/Image'
 
 
 export default class Briovr extends Component {
@@ -21,15 +21,32 @@ export default class Briovr extends Component {
               users visualize where they are moving/placing objects while
               editing in BRIOVR builder.</p>
 
-              <h3>Team and Roles</h3>
-              <p>For this project, I’m working as the UI/UX designer.
-                I was working with a developer to build this feature for BRIOVR.</p>
-
               <div className='section-block'>
                 <h3>Challenge</h3>
                 <p>The challenge for this project was to understand how our users
                 use the 2D editor we provide via BRIOVR to create in a 3D space.</p>
               </div>
+
+              <h3>Personas</h3>
+              <div className='persona-section'>
+
+                <div className='persona-card'>
+                  <img src={briop1} />
+                  <h4>Tony</h4><h4>Interaction Designer, Tech Savy</h4>
+                  <h4>34 Years Old</h4>
+                  <p>Tony works in the technology industry as a designer. </p>
+                </div>
+                <div className='persona-card'>
+                  <img src={briop2} />
+                  <h4>Amy</h4><h4>Student</h4>
+                  <h4>20 Years Old</h4>
+                  <p>Amy is a college student that is learning new </p>
+                </div>
+              </div>
+
+              <h3>Team and Roles</h3>
+              <p>For this project, I’m working as the UI/UX designer.
+                I was working with a developer to build this feature for BRIOVR.</p>
 
 
 
@@ -41,22 +58,7 @@ export default class Briovr extends Component {
               understand the 3d space they are working in, but for people with
               less 3d experience, there is a learning curve in it,
               which is not what we want for brio.</p>
-            <h4>Personas</h4>
-            <div className='persona-section'>
 
-              <div className='persona-card'>
-                <img src={briop1} />
-                <h5>Tony</h5><h5>Interaction Designer, Tech Savy</h5>
-                <h5>34 Years Old</h5>
-                <p>Tony works in the technology industry as a designer. </p>
-              </div>
-              <div className='persona-card'>
-                <img src={briop1} />
-                <h5>Amy</h5><h5>Student</h5>
-                <h5>20 Years Old</h5>
-                <p>Amy is a college student that is learning new </p>
-              </div>
-            </div>
 
             <h3>Prototyping and tests</h3>
             <p>The prototype stage had 2 stages. Stage 1 is 2D prototyping.
