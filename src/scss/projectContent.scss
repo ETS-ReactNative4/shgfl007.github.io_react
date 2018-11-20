@@ -6,7 +6,9 @@
   max-width: 700px;
   margin: auto;
   text-align: left;
-
+  h2{
+    text-align: center;
+  }
   p{
     text-align: left;
     color: $black;
@@ -17,7 +19,7 @@
 .section-block{
   border: 2px solid $yellow;
   border-radius: 4px;
-  padding: 16px;
+  padding: 0 16px 16px 16px;
   box-shadow: $dp1 $yellow;
 
 }
@@ -25,14 +27,28 @@
 .persona-section{
   display: flex;
   justify-content: space-between;
-
+  max-width: 100%;
+  //flex-wrap: wrap;
+  margin: auto;
   .persona-card{
+    min-width: 280px;
     width: 280px;
+    height: 300px;
     text-align: center;
     padding: 24px;
     border-radius: 4px;
     box-shadow: $dp1 $grey;
-
     img{width:100px;margin: auto;}
+
+    .card-header{
+      display: flex;
+      align-items: center;
+      .header-text{
+        text-align: left;
+      }
+      .header-img{
+        padding-right: 24px;
+      }
+    }
   }
 }

@@ -5,9 +5,12 @@ import briop2 from '../assets/projects/briovr/brioP2.svg'
 
 import ftBKG from '../assets/projects/fairtrade/fairtrade.png'
 import gameBKG from '../assets/projects/game/rulebkg.jpg'
+
 import foguangBKG from '../assets/projects/foguang/bkg.jpg'
+import fgflow from '../assets/projects/foguang/MockupFlow.png'
+
 import profile from '../assets/img/profile_new.png'
 
 
 
-export {brioBKG,briop1,briop2, ftBKG, gameBKG, foguangBKG, profile}
+export {brioBKG,briop1,briop2, ftBKG, gameBKG, foguangBKG, fgflow, profile}
