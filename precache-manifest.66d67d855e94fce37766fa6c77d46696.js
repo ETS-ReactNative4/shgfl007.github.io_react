@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "afa1806c66d33beee3c369d2a2f9d56f",
-    "url": "/react-portfolio/static/media/brioP2.afa1806c.svg"
+    "revision": "ddd660d8737ee0fe43a58553c712816f",
+    "url": "/react-portfolio/static/media/fairtrade.ddd660d8.png"
   },
   {
-    "revision": "8981e5737e47e05ee90e",
-    "url": "/react-portfolio/static/css/main.06689c0f.chunk.css"
+    "revision": "5755874900aba5d2d0ca",
+    "url": "/react-portfolio/static/css/main.f7c26176.chunk.css"
   },
   {
-    "revision": "fab81ff00cf042bd1600",
-    "url": "/react-portfolio/static/js/1.fab81ff0.chunk.js"
+    "revision": "29da12539b12a1e534cc",
+    "url": "/react-portfolio/static/js/1.29da1253.chunk.js"
   },
   {
     "revision": "f8926043fa4459ec0101",
@@ -24,12 +24,12 @@ self.__precacheManifest = [
     "url": "/react-portfolio/static/media/brioP1.aeb87dcb.svg"
   },
   {
-    "revision": "8981e5737e47e05ee90e",
-    "url": "/react-portfolio/static/js/main.8981e573.chunk.js"
+    "revision": "afa1806c66d33beee3c369d2a2f9d56f",
+    "url": "/react-portfolio/static/media/brioP2.afa1806c.svg"
   },
   {
-    "revision": "ddd660d8737ee0fe43a58553c712816f",
-    "url": "/react-portfolio/static/media/fairtrade.ddd660d8.png"
+    "revision": "5755874900aba5d2d0ca",
+    "url": "/react-portfolio/static/js/main.57558749.chunk.js"
   },
   {
     "revision": "73de79ba5b8309d0cbdd72e8c03a1af3",
@@ -40,6 +40,10 @@ self.__precacheManifest = [
     "url": "/react-portfolio/static/media/bkg.f657fe0c.jpg"
   },
   {
+    "revision": "9f423af206f2522139eba73d216d97da",
+    "url": "/react-portfolio/static/media/MockupFlow.9f423af2.png"
+  },
+  {
     "revision": "05c3c0a39baa86858b592753ace476d7",
     "url": "/react-portfolio/static/media/profile_new.05c3c0a3.png"
   },
@@ -48,7 +52,7 @@ self.__precacheManifest = [
     "url": "/react-portfolio/static/media/logo.5d5d9eef.svg"
   },
   {
-    "revision": "81d1a80fee8d1a01b71aaef7b3ee1ee2",
+    "revision": "aebb1c172ae88b08582c2f2e7088ef97",
     "url": "/react-portfolio/index.html"
   }
 ];
