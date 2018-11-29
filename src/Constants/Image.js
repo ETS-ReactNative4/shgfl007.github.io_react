@@ -8,9 +8,11 @@ import gameBKG from '../assets/projects/game/rulebkg.jpg'
 
 import foguangBKG from '../assets/projects/foguang/bkg.jpg'
 import fgflow from '../assets/projects/foguang/MockupFlow.png'
+import fgIA from '../assets/projects/foguang/foguangIA.png'
+import fgmain from '../assets/projects/foguang/main.png'
 
 import profile from '../assets/img/profile_new.png'
 
 
 
-export {brioBKG,briop1,briop2, ftBKG, gameBKG, foguangBKG, fgflow, profile}
+export {brioBKG,briop1,briop2, ftBKG, fgIA, fgmain, gameBKG, foguangBKG, fgflow, profile}

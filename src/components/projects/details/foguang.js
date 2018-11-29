@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {foguangBKG, fgflow, briop1, briop2} from '../../../Constants/Image'
+import {foguangBKG, fgflow, fgIA, briop1, briop2, fgmain} from '../../../Constants/Image'
 import Persona from './components/persona'
 
 const personas = [
@@ -13,6 +13,7 @@ export default class Foguang extends Component {
     return (
       <div>
         <div className='header-home animated project-header-section' >
+          <div className='hero-img' style={{backgroundImage:`url(${fgmain})`}}></div>
             <h1 className='title'>Telling the Story Behind Acient Temple with Digital Media</h1>
             <hr/>
             <h3>Foguang Temple Touring Guide</h3>
@@ -75,22 +76,40 @@ export default class Foguang extends Component {
 
             <h2>Prototyping and Tests</h2>
             <hr />
-              <a href='https://projects.invisionapp.com/share/8H4UNDU3U#/screens/113970779' target='_blank'>
+            <h3>Information Architecture</h3>
+            <img className='project-img' src={fgIA}/>
+            <p>We worked closely with our client to narraw down the storyline. </p>
+              <ul>
+                <li>One side of the story takes the temple as the main character and takes the audiences through its life.</li>
+                <li>The other side of the story takes Liang SiCheng, the famous Chinese Architect as the main character.</li>
+              </ul>
+              <p>The two storyline comes together when the temple was rediscovered by Liang SiCheng.</p>
+              <p>After the two story merging together, we decided to take advantage of the data from our client by showing the
+                360 photos of current FoGuang Temple. </p>
+              <p>In this section, we tell the story that are related to the Temple, so that the audience can see the content within
+              its context.</p>
+              <p>  <a href='https://projects.invisionapp.com/share/8H4UNDU3U#/screens/113970779' target='_blank'>
                 <h3>User Flow</h3>
-              </a>
-              <img src={fgflow} />
+              </a></p>
+              <img className='project-img' src={fgflow} />
+              <h3>User Flow</h3>
 
 
 
-            <h3>Detailed Design</h3>
+
+            <h2>Product</h2>
+            <hr/>
+          <h3>Detailed Design</h3>
 
             <h3>Result</h3>
             <p>The app can be found on the Google Chrome Store:</p>
-            <a href='https://chrome.google.com/webstore/detail/foguangapptestapp/nklaaogghgabcbdilaapmfbjlmbinmjp?authuser=1'
-              target='_blank'>FoGuang App</a>
+            <p><a href='https://chrome.google.com/webstore/detail/foguangapptestapp/nklaaogghgabcbdilaapmfbjlmbinmjp?authuser=1'
+              target='_blank'>FoGuang App</a></p>
 
 
-            <h3>Takeaways</h3>
+            <h2>Takeaways</h2>
+            <hr/>
+
 
           </div>
     </div>
