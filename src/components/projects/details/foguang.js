@@ -88,11 +88,9 @@ export default class Foguang extends Component {
                 360 photos of current FoGuang Temple. </p>
               <p>In this section, we tell the story that are related to the Temple, so that the audience can see the content within
               its context.</p>
-              <p>  <a href='https://projects.invisionapp.com/share/8H4UNDU3U#/screens/113970779' target='_blank'>
-                <h3>User Flow</h3>
-              </a></p>
-              <img className='project-img' src={fgflow} />
-              <h3>User Flow</h3>
+
+            <h3>VR or Not VR</h3>
+            <p>Because we had a huge section that contains 360 photos, our client was considering it to be VR enabled.</p>
 
 
 
