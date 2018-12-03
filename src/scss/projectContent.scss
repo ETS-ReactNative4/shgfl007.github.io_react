@@ -72,3 +72,21 @@
     }
   }
 }
+
+.split-section{
+  display: flex;
+  justify-content: flex-start;
+  max-width: 800px;
+  margin: 40px auto;
+  .split-left{
+    .foguang-photo{
+      width: 400px;
+    }
+  }
+  .split-right{
+    padding: 0 16px;
+    .first-par{
+      margin: 0;
+    }
+  }
+}
