@@ -4,12 +4,12 @@ self.__precacheManifest = [
     "url": "/react-portfolio/static/media/bkg.f657fe0c.jpg"
   },
   {
-    "revision": "3b764371d315219ea429",
-    "url": "/react-portfolio/static/css/main.0f5f5454.chunk.css"
+    "revision": "be9f6c8723d1914e0074",
+    "url": "/react-portfolio/static/css/main.75b93641.chunk.css"
   },
   {
-    "revision": "7747e9bd29a8fdcc6650",
-    "url": "/react-portfolio/static/js/1.7747e9bd.chunk.js"
+    "revision": "d50b255f699d90a8ee33",
+    "url": "/react-portfolio/static/js/1.d50b255f.chunk.js"
   },
   {
     "revision": "f8926043fa4459ec0101",
@@ -36,8 +36,8 @@ self.__precacheManifest = [
     "url": "/react-portfolio/static/media/rulebkg.73de79ba.jpg"
   },
   {
-    "revision": "3b764371d315219ea429",
-    "url": "/react-portfolio/static/js/main.3b764371.chunk.js"
+    "revision": "be9f6c8723d1914e0074",
+    "url": "/react-portfolio/static/js/main.be9f6c87.chunk.js"
   },
   {
     "revision": "9f423af206f2522139eba73d216d97da",
@@ -60,6 +60,10 @@ self.__precacheManifest = [
     "url": "/react-portfolio/static/media/p1.6f9641b2.png"
   },
   {
+    "revision": "ae3b7df1a9e222743dd9d56380b1495c",
+    "url": "/react-portfolio/static/media/designP.ae3b7df1.png"
+  },
+  {
     "revision": "05c3c0a39baa86858b592753ace476d7",
     "url": "/react-portfolio/static/media/profile_new.05c3c0a3.png"
   },
@@ -68,7 +72,7 @@ self.__precacheManifest = [
     "url": "/react-portfolio/static/media/logo.5d5d9eef.svg"
   },
   {
-    "revision": "5de9827bcb224e853d9738188ad6d264",
+    "revision": "cb09ab76cdf3c6c8310589b2ab6de268",
     "url": "/react-portfolio/index.html"
   }
 ];
