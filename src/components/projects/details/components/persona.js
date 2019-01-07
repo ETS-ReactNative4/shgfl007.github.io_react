@@ -14,8 +14,13 @@ export default class Persona extends Component {
         </div>
       </div>
       <p>{persona.description}</p>
+      {persona.needs && <ul>{this.getNeeds(persona.needs)}</ul>}
     </div>
   )
+  }
+
+  getNeeds(needs){
+    return needs.map((need)=><li>{need}</li>)
   }
 
   render(){

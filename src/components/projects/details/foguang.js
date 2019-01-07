@@ -1,10 +1,16 @@
 import React, { Component } from 'react';
-import {foguangBKG, fgflow, fgIA, briop1, briop2, fgmain,fgphoto,fgp1} from '../../../Constants/Image'
+import {foguangBKG, fgflow, fgIA, briop1, briop2, fgmain,fgphoto,fgp1, fgdp} from '../../../Constants/Image'
 import Persona from './components/persona'
 
 const personas = [
-  {name:'Tina', age:'20', img: briop2, description:'Tina is a college student that is majored in Architecture. She comes to the site to see the temple in real life. Tina knows the site but she has never seen its full.'},
-  {name:'Ru Zhi', age: '65', img: briop1, description:'Ru Zhi comes to the temple with his grandson. He wants to show his grandson the cultural heritage so he could learn about the history and appreciate the culture.'}
+  {name:'Tina', age:'20', img: briop2,
+    description:'Tina is a college student that is majored in Architecture. She comes to the site to see the temple in real life. Tina knows the site but she has never seen its full.',
+    needs: ['Details of the statues', 'Details of the writings on the ceiling', 'Details on peoms on the door']
+  },
+  {name:'Ru Zhi', age: '65', img: briop1,
+    description:'Ru Zhi comes to the temple with his grandson. He wants to show his grandchild the cultural heritage so he could learn about the history and appreciate the culture.',
+    needs: ['Cultural background (temple & buddahism)', 'Why FoGuang is important', 'Something fun for kids']
+  }
 ]
 
 export default class Foguang extends Component {
@@ -13,11 +19,12 @@ export default class Foguang extends Component {
     return (
       <div>
         <div className='header-home animated project-header-section' >
-          <div className='hero-img' style={{backgroundImage:`url(${fgmain})`}}></div>
+
             <h1 className='title'>Telling the Story Behind Acient Temple with Digital Media</h1>
             <hr/>
             <h3>Foguang Temple Touring Guide</h3>
             <p>Getting to know not only the audience but also the environment.</p>
+            <div className='hero-img' style={{backgroundImage:`url(${fgmain})`}}></div>
           </div>
           <div className='project-content animated'>
             <h2>The Project</h2>
@@ -39,6 +46,8 @@ export default class Foguang extends Component {
               In addition to the app development, I also worked as the contact point between us
               and the client.
             </p>
+            <h3>Design Process</h3>
+            <img className='project-img project-img-small' src={fgdp} />
 
 
 
@@ -52,7 +61,7 @@ export default class Foguang extends Component {
               </p>
               <ul>
                 <li>A huge amount of data is not being used</li>
-                <li>Pick which story to tell, since the temple itself has a history more than 1000 years</li>
+                <li>Wanted to tell the story, but didn't know where to start</li>
                 <li>The product needs to be accessible for both onsite and offsite visitors</li>
               </ul>
 
@@ -65,11 +74,6 @@ export default class Foguang extends Component {
               </ul>
                 </div>
 
-
-              <h3>Personas</h3>
-              <div className='persona-section'>
-                <Persona personas={personas} />
-              </div>
 
               <h3>The Location & The Visitors</h3>
               <div className='split-section'>
@@ -91,6 +95,17 @@ export default class Foguang extends Component {
              </p>
                 </div>
               </div>
+
+              <h3>Personas</h3>
+              <div className='persona-section'>
+                <Persona personas={personas} />
+              </div>
+
+              <h3>Current Solutions</h3>
+              <h4>For Client</h4>
+              <ul><li>Indexed software for the database (not open to public)</li><li>Give presentations</li></ul>
+              <h4>For Visitors</h4>
+              <ul><li>Read books</li><li>Learn from their professors</li><li>Online research</li></ul>
 
 
 

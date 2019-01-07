@@ -13,11 +13,10 @@ export default class Header extends Component {
 
               <img className='selfie' alt="profile_pic" src={profile} />
 
-              <h1 className="title">Danning Lu</h1>
-              <h2 className="description">Product Designer - Creative Coder - Storyteller</h2>
+              <h1 className="title">Hi, I'm Danning Lu. An interaction designer based in Toronto, Canada.</h1>
             </div>
             <div className='header-split-right'>
-              <p className='summary'>Danning is a developer, digital media designer, and virtual reality specialist. Her experience as a digital media artist has resulted in her developing unique and immersive experiences. Danning has completed a variety of projects under the field of Digital Media, including designing and building robots, interactive performance, interactive installation, and game design. Throughout all her projects, she is seeking and exploring new ways of interactive storytelling with an immersive virtual environment. Danning holds a Master of Digital Media and a Bachelor of Arts.</p>
+              <p className='summary'>With a background in programming and entrepreneurship, my strength lies in research & rapid prototyping for web & mobile apps. During my career I had the privilege to work with companies that are challenging the new territory of AR and VR. </p>
             </div>
           </div>
 
