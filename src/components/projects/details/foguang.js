@@ -126,6 +126,10 @@ export default class Foguang extends Component {
               <p>In this section, we tell the story that are related to the Temple, so that the audience can see the content within
               its context.</p>
 
+            <h3>The Mockup</h3>
+            <p>After creating the the IA diagram, we did a quick mockup for our client to review.</p>
+            <p>This mockup represented the flow we wanted to go with: start with the background story </p>
+
             <h3>VR or Not VR</h3>
             <p>Because we had a huge section that contains 360 photos, our client was considering it to be VR enabled.</p>
             <p>We take the exhibition display condition into considerations, here's list we presented to the client why
@@ -141,6 +145,14 @@ export default class Foguang extends Component {
             <p>We did not make the app an VR experience onsite, but we did want to enable VR experience for online
              visitors since some of them would be looking at the site at their home and they would have their own VR
             goggles and would have enough time to go through everything.</p>
+
+          <h3>Future Development</h3>
+          <p>At the end of the project, we made another purposal for future development since at the time, the technology
+          that suited the senerio best wasn't available.</p>
+          <p>In the future development purposal we included the following points:</p>
+          <ul>
+          <li>Use AR to improve onsite user experiences</li>
+          </ul>
 
 
 
@@ -158,6 +170,17 @@ export default class Foguang extends Component {
 
             <h2>Takeaways</h2>
             <hr/>
+            <div>
+              <h3>Know the Audience & Location</h3>
+              <p>This project involves physical setups. Learn the location well to tailor the solution that is suitable for the location is important.</p>
+
+              <h3>Choose the Tech to Serve the Story & Experience</h3>
+              <p>Technology is just tools. We should never design something for the technology because it's cool. We pickup the right technology for the solution we proposed.</p>
+
+              <h3>Learn from the Client & Work with Them</h3>
+              <p>Our client knows best in their fields. We brought our client into our design process. We showed our client our process on bi-weekly meetings and took their advice.</p>
+
+            </div>
 
 
           </div>
