@@ -6,6 +6,10 @@
   h1,h2,h3,p{
     text-align: center;
   }
+
+  @include largeS{
+    justify-content: space-around;
+  }
 }
 
 .project-card{
@@ -14,6 +18,8 @@
   background-size: cover;
   background-repeat: no-repeat;
   margin: 8px 0;
+
+
 }
 
 .title-bkg{

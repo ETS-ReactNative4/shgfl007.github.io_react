@@ -14,13 +14,21 @@ export const ProjectList = [
 
   {title: 'Foguang Temple Touring Guide', category:'Case Study, UX Design, Development', app:'Foguang Temple',
     caption:'Telling the story behind the temple with a thunsand year history and the visitors',
-    img: foguangBKG, link:'/foguang-temple'},
+    img: foguangBKG, link:'/foguang-temple'}
 
-    {title: 'Geogram', category:'UX Design', app:'Geogram',
-      caption:'Telling the story behind the temple with a thunsand year history and the visitors',
-      img: foguangBKG, link:'/foguang-temple'},
 
-      {title: 'Know Who Is The Real User', category:'Case Study, UX Design, Development', app:'Jump In',
-        caption:'Telling the story behind the temple with a thunsand year history and the visitors',
-        img:foguangBKG, link:'/foguang-temple'}
 ]
+
+//----------------------------------------------------
+
+
+// {title: 'Know Who Is The Real User', category:'Case Study, UX Design, Development', app:'Jump In',
+//   caption:'Telling the story behind the temple with a thunsand year history and the visitors',
+//   img:foguangBKG, link:'/foguang-temple'},
+
+// {title: 'Geogram', category:'UX Design', app:'Geogram',
+//   caption:'Telling the story behind the temple with a thunsand year history and the visitors',
+//   img: foguangBKG, link:'/foguang-temple'}
+
+
+//----------------------------------------------

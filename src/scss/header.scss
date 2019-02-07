@@ -19,8 +19,12 @@
     }
   }
 
+  .title-main-header {
+    margin: 0 0 13px;
+    text-align: left;
+  }
+
   .title {
-    font-size: 4rem;
     margin: 0 0 13px;
   }
 
@@ -43,12 +47,17 @@
 
 .header-split{
   display: flex;
-
+  @include largeS{
+    flex-wrap: wrap;
+  }
   .header-split-left{
     min-width: 300px;
   }
 
   .header-split-right{
     padding: 32px;
+    @include largeS{
+      padding: 32px 0;
+    }
   }
 }
