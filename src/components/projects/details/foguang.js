@@ -151,7 +151,9 @@ export default class Foguang extends Component {
           that suited the senerio best wasn't available.</p>
           <p>In the future development purposal we included the following points:</p>
           <ul>
-          <li>Use AR to improve onsite user experiences</li>
+          <li>Create an immersive onsite experience by adding image recognition</li>
+          <li>Separating the onsite and offsite experiences by offering more tailored experiences</li>
+          <li>Adding detailed scans from our client to showcase the statues inside the Great East Hall</li>
           </ul>
 
 

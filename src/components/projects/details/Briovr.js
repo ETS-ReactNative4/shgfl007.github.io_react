@@ -1,6 +1,14 @@
 import React, { Component } from 'react';
-import {brioBKG, briop1, briop2} from '../../../Constants/Image'
+import {brioBKG, briop1, briop2,brioAnim,brioref} from '../../../Constants/Image'
 
+const ref = {
+  width: '100%',
+  height:'265px',
+  margin:'auto',
+  backgroundSize:'contain',
+  backgroundRepeat: 'no-repeat',
+  backgroundImage: `url(${brioref})`
+};
 
 export default class Briovr extends Component {
 
@@ -12,6 +20,7 @@ export default class Briovr extends Component {
             <hr/>
             <h3>BRIOVR</h3>
             <p>Solve the problem of placing objects in 3D space using 2D editor</p>
+            <div className='hero-img' style={{backgroundImage:`url(${brioBKG})`}}></div>
           </div>
           <div className='project-content animated'>
             <p>BRIOVR is an online platform for people with less 3d experiences
@@ -22,9 +31,13 @@ export default class Briovr extends Component {
               editing in BRIOVR builder.</p>
 
               <div className='section-block'>
-                <h3>Challenge</h3>
-                <p>The challenge for this project was to understand how our users
-                use the 2D editor we provide via BRIOVR to create in a 3D space.</p>
+                <h3>Challenges</h3>
+                <ul>
+                  <li>Show 3d space inside the 2d editor</li>
+                  <li>Responsive to object's movements and size changes in realtime</li>
+                  <li>Understandable by the personas</li>
+                </ul>
+
               </div>
 
               <h3>Personas</h3>
@@ -38,9 +51,10 @@ export default class Briovr extends Component {
                 </div>
                 <div className='persona-card'>
                   <img src={briop2} />
-                  <h4>Amy</h4><h4>Student</h4>
-                  <h4>20 Years Old</h4>
-                  <p>Amy is a college student that is learning new </p>
+                  <h4>Amy</h4><h4>Product Designer (Industrial)</h4>
+                  <h4>28 Years Old</h4>
+                  <p>Amy is a product designer that works for a toy company. She has some basic knowledge about 3d
+                  software. She is curious about the new AR/VR trend and wants to showcase her toy designs especially in AR.</p>
                 </div>
               </div>
 
@@ -51,16 +65,38 @@ export default class Briovr extends Component {
 
 
             <h3>Discovery</h3>
-            <p>Market research: I researched apps and software that allows users
-              to edit 3d worlds using a 2d ui, including game engines and 3d
-              modeling software. I found that many of the apps are facing the
-              same issue. Artists are used to using different view ports to
-              understand the 3d space they are working in, but for people with
-              less 3d experience, there is a learning curve in it,
-              which is not what we want for brio.</p>
+            <div className='project-image'><div style={ ref }></div></div>
+
+            <p>Before getting started into the design process, I did some research
+              on how 3d software represents 3d space. Here's what I've discovered:</p>
+            <ul>
+              <li>For 3d modeling software, most of them use split views of top, front and side.</li>
+              <li>For game engines like Unreal and Unity, they also use the split views to identify the space.</li>
+              <li>For AR apps (AR stickers in particular), they use a grid to identify the surface and a circle/square to identify where they are placing the object.</li>
+              <li>In real life, we know that when objects are closer, they are bigger. If something is floating, we know how far by looking at the shadow it casts.</li>
+            </ul>
+            <p>I found that 3d modeling software and game engines are for users that are trained to view the 3d space using different view ports.
+              While AR apps provides a better solution for regular users that doesn't have much experiences with professional 3d software. </p>
+            <p>Also as human, we do have a natural understanding of 3 dimensional world by observing the size of we see an object and its shadow.</p>
+
+            <p>After conducting the research, I started to build prototypes based on my discoveries.</p>
 
 
-            <h3>Prototyping and tests</h3>
+
+            <h3>Prototyping and Tests</h3>
+            <p>The first design was a combination between current AR solutions and real life experiences.</p>
+            <p>The indicator will</p>
+            <ul>
+              <li>Be based on the grid system we are currently having to assist users</li>
+              <li>Have 2 parts: part 1 shows the distance from the grid. Part 2 identifies the location and size on the x-z plane</li>
+            </ul>
+
+            <div className='split-section'>
+              <div className='split-left'><video className='brio-animation' src={brioAnim} autoPlay loop/></div>
+              <div className='split-right'></div>
+
+            </div>
+
             <p>The prototype stage had 2 stages. Stage 1 is 2D prototyping.
               This stage contains the appearance and function of the indicator
               using Adobe XD.I took how people see 3d objects in real life as

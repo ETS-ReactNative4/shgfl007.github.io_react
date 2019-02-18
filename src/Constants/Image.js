@@ -1,6 +1,8 @@
 import brioBKG from '../assets/projects/briovr/Indicator.png'
 import briop1 from '../assets/projects/briovr/brioP1.svg'
 import briop2 from '../assets/projects/briovr/brioP2.svg'
+import brioAnim from '../assets/projects/briovr/indicator-animation.mp4'
+import brioref from '../assets/projects/briovr/ref.png'
 
 
 import ftBKG from '../assets/projects/fairtrade/fairtrade.png'
@@ -23,6 +25,8 @@ export {
   brioBKG,
   briop1,
   briop2,
+  brioAnim,
+  brioref,
   ftBKG,
   fgIA,
   fgmain,
