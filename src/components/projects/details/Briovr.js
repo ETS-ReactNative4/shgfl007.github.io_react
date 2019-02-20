@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {brioBKG, briop1, briop2,brioAnim,brioref} from '../../../Constants/Image'
+import {brioBKG, briop1, briop2,brioAnim,brioref,briodesign} from '../../../Constants/Image'
 
 const ref = {
   width: '100%',
@@ -8,6 +8,15 @@ const ref = {
   backgroundSize:'contain',
   backgroundRepeat: 'no-repeat',
   backgroundImage: `url(${brioref})`
+};
+
+const design = {
+  width: '100%',
+  height:'400px',
+  margin:'auto',
+  backgroundSize:'contain',
+  backgroundRepeat: 'no-repeat',
+  backgroundImage: `url(${briodesign})`
 };
 
 export default class Briovr extends Component {
@@ -85,14 +94,22 @@ export default class Briovr extends Component {
 
             <h3>Prototyping and Tests</h3>
             <p>The first design was a combination between current AR solutions and real life experiences.</p>
-            <p>The indicator will</p>
+            <p>The indicator should</p>
             <ul>
               <li>Be based on the grid system we are currently having to assist users</li>
               <li>Have 2 parts: part 1 shows the distance from the grid. Part 2 identifies the location and size on the x-z plane</li>
             </ul>
 
+            <p>I started with the base. I experimented with some different shapes. Some are responsive to the object's shape, so
+              the indicator itself
+            </p>
+
+            <div className='project-image'><img src={briodesign} /></div>
+
+
+
             <div className='split-section'>
-              <div className='split-left'><video className='brio-animation' src={brioAnim} autoPlay loop/></div>
+              <div className='split-left'><video className='brio-animation' src={brioAnim} autoPlay loop muted/></div>
               <div className='split-right'></div>
 
             </div>
