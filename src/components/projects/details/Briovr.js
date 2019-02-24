@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {brioBKG, briop1, briop2,brioAnim,brioref,briodesign} from '../../../Constants/Image'
+import {brioBKG, briop1, briop2,brioAnim,brioref,briodesign,brios1} from '../../../Constants/Image'
 
 const ref = {
   width: '100%',
@@ -92,8 +92,21 @@ export default class Briovr extends Component {
 
 
 
-            <h3>Prototyping and Tests</h3>
-            <p>The first design was a combination between current AR solutions and real life experiences.</p>
+            <h3>Design, Prototyping and Tests</h3>
+
+              <div className='split-section'>
+                <div className='split-left'><img src={brios1} /></div>
+                <div className='split-right'><h4>The Sketch</h4>
+                  <p>Based on the discoveries, I first did some sketches before going deeper into the design.</p>
+                  <p>I used simple elements to test out my assumptions: a cube, the grid and the indicator. The sketches
+                     includes something similar to real world shadows that would be affected by the shape of the objects,
+                     also something more abstract (a ring that represents the rough size of the object).
+                  </p>
+                </div>
+              </div>
+
+            <h4>The Mockup</h4>
+            <p>I took some of the sketches and put it in Adobe XD on top of screenshots of Brio builder</p>
             <p>The indicator should</p>
             <ul>
               <li>Be based on the grid system we are currently having to assist users</li>
