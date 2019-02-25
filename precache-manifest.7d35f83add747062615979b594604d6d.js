@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "73de79ba5b8309d0cbdd72e8c03a1af3",
-    "url": "/react-portfolio/static/media/rulebkg.73de79ba.jpg"
+    "revision": "ddd660d8737ee0fe43a58553c712816f",
+    "url": "/react-portfolio/static/media/fairtrade.ddd660d8.png"
   },
   {
-    "revision": "85ec5a493691e852443e",
-    "url": "/react-portfolio/static/css/main.12a80888.chunk.css"
+    "revision": "a3541d5275448f17b5a6",
+    "url": "/react-portfolio/static/css/main.074101c7.chunk.css"
   },
   {
-    "revision": "3035d268955cf706b070",
-    "url": "/react-portfolio/static/js/1.3035d268.chunk.js"
+    "revision": "72c1d7c28dc96d0e09ac",
+    "url": "/react-portfolio/static/js/1.72c1d7c2.chunk.js"
   },
   {
     "revision": "f8926043fa4459ec0101",
@@ -40,12 +40,20 @@ self.__precacheManifest = [
     "url": "/react-portfolio/static/media/design0.36388b65.png"
   },
   {
-    "revision": "ddd660d8737ee0fe43a58553c712816f",
-    "url": "/react-portfolio/static/media/fairtrade.ddd660d8.png"
+    "revision": "dfa88f094d27088045c987617705d4a9",
+    "url": "/react-portfolio/static/media/indicator2.dfa88f09.png"
   },
   {
-    "revision": "85ec5a493691e852443e",
-    "url": "/react-portfolio/static/js/main.85ec5a49.chunk.js"
+    "revision": "75eb7de0178e780a15c0853a7ecc9284",
+    "url": "/react-portfolio/static/media/s1.75eb7de0.png"
+  },
+  {
+    "revision": "a3541d5275448f17b5a6",
+    "url": "/react-portfolio/static/js/main.a3541d52.chunk.js"
+  },
+  {
+    "revision": "73de79ba5b8309d0cbdd72e8c03a1af3",
+    "url": "/react-portfolio/static/media/rulebkg.73de79ba.jpg"
   },
   {
     "revision": "f657fe0c1a4d50b690f2ab8b334fb48c",
@@ -84,7 +92,7 @@ self.__precacheManifest = [
     "url": "/react-portfolio/static/media/logo.5d5d9eef.svg"
   },
   {
-    "revision": "679dc28972771470b4651a5a5f6880ae",
+    "revision": "b4d42394a9aca51d5b02bfb529bcab5a",
     "url": "/react-portfolio/index.html"
   }
 ];
