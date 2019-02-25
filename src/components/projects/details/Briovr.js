@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {brioBKG, briop1, briop2,brioAnim,brioref,briodesign,brios1} from '../../../Constants/Image'
+import {brioBKG, briop1, briop2,brioAnim,brioref,briodesign,brios1,briodesign2,} from '../../../Constants/Image'
 
 const ref = {
   width: '100%',
@@ -92,7 +92,7 @@ export default class Briovr extends Component {
 
 
 
-            <h3>Design, Prototyping and Tests</h3>
+            <h3>Design, Mockup and Iterations</h3>
 
               <div className='split-section'>
                 <div className='split-left'><img src={brios1} /></div>
@@ -106,24 +106,54 @@ export default class Briovr extends Component {
               </div>
 
             <h4>The Mockup</h4>
-            <p>I took some of the sketches and put it in Adobe XD on top of screenshots of Brio builder</p>
+            <p>I took some of the sketches and put it in Adobe XD on top of screenshots of the Brio builder. The elements
+              are still simple: a cube, the grid with a background colour and the indicator.
+            </p>
+            <p>In this phase, I was focusing on the colour and shape of the variety indicators. It showed that what colour
+              would be more visible with different background colours.
+            </p>
+            <p>After building the mockup, I showed it to the team that were working on other features. Before getting into
+               it, I explain what was expected for the indicator. Here's the list I've mentioned to the team:
+            </p>
             <p>The indicator should</p>
             <ul>
-              <li>Be based on the grid system we are currently having to assist users</li>
-              <li>Have 2 parts: part 1 shows the distance from the grid. Part 2 identifies the location and size on the x-z plane</li>
+              <li>Show where the object is on the x-z plane (how far from the edit camera)</li>
+              <li>Be visible and self explainary</li>
+              <li>Be very light in terms of rendering & calculation within the web app</li>
             </ul>
-
-            <p>I started with the base. I experimented with some different shapes. Some are responsive to the object's shape, so
-              the indicator itself
+            <p>From the feedbacks from the team, I learned that using an abstract base that won't be affected by the shape of
+               the object would be a better choice in terms of performance. This helped me filtered out the realtime shadow like
+               indicators and focused more on the abstract ring shapes.
             </p>
 
             <div className='project-image'><img src={briodesign} /></div>
 
-
+            <h4>The Base</h4>
+            <p>I worked on a variaty of the abstract bases and for each round I asked artists and other team members for their feedback.</p>
+            <p>After several iterations, the base became something similar to the final design: a ring shape with dotted outline.</p>
 
             <div className='split-section'>
+              <div className='split-left'><img src={briodesign2}/></div>
+              <div className='split-right'><h4>The Height Ruler</h4>
+              <p>It was easier to design the height indicator after setting the base style and colour from the base. The height indicator
+              was refering to rulers and and grid system we were using in Brio. The distance between each dot is the same distance between
+              each 'x' on the grid. In this way, users wouldn't need to think about whether the distances were the same.</p>
+              <h4>The Rules</h4>
+              <p>Other than designing the actual appearance of the indicator, I also set the rules of the indicator. Here are the rules:</p>
+              <ul>
+                <li>When - The indicator appears when a object is being manipulated (move, scale, rotate)</li>
+                <li>Where - The base should always be on the grid. The other side of the indicator should be in from the ceter of the object.</li>
+              </ul>
+              </div>
+            </div>
+
+
+            <h3>The Prototype</h3>
+            <p>
+            I quickly made some prototypes within Brio with animations.</p>
+            <div className='split-section'>
               <div className='split-left'><video className='brio-animation' src={brioAnim} autoPlay loop muted/></div>
-              <div className='split-right'></div>
+              <div className='split-right'><h4>Give It A Bit Characteristics</h4><p></p></div>
 
             </div>
 

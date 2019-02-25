@@ -4,6 +4,7 @@ import briop2 from '../assets/projects/briovr/brioP2.svg'
 import brioAnim from '../assets/projects/briovr/indicator-animation.mp4'
 import brioref from '../assets/projects/briovr/ref.png'
 import briodesign from '../assets/projects/briovr/design0.png'
+import briodesign2 from '../assets/projects/briovr/indicator2.png'
 import brios1 from '../assets/projects/briovr/s1.png'
 
 
@@ -29,7 +30,7 @@ export {
   briop2,
   brioAnim,
   brioref,
-  briodesign,
+  briodesign,briodesign2,
   brios1,
   ftBKG,
   fgIA,
