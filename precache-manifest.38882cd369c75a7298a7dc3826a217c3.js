@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "ddd660d8737ee0fe43a58553c712816f",
-    "url": "/react-portfolio/static/media/fairtrade.ddd660d8.png"
+    "revision": "95f7e08a2a6cdb014b89eea10fef7f45",
+    "url": "/react-portfolio/static/media/tweet.95f7e08a.png"
   },
   {
-    "revision": "a3541d5275448f17b5a6",
-    "url": "/react-portfolio/static/css/main.074101c7.chunk.css"
+    "revision": "6f4c9900977e9064bef8",
+    "url": "/react-portfolio/static/css/main.1671dab8.chunk.css"
   },
   {
-    "revision": "72c1d7c28dc96d0e09ac",
-    "url": "/react-portfolio/static/js/1.72c1d7c2.chunk.js"
+    "revision": "0cdc8065c0ef6d1eec93",
+    "url": "/react-portfolio/static/js/1.0cdc8065.chunk.js"
   },
   {
     "revision": "f8926043fa4459ec0101",
@@ -48,8 +48,12 @@ self.__precacheManifest = [
     "url": "/react-portfolio/static/media/s1.75eb7de0.png"
   },
   {
-    "revision": "a3541d5275448f17b5a6",
-    "url": "/react-portfolio/static/js/main.a3541d52.chunk.js"
+    "revision": "6f4c9900977e9064bef8",
+    "url": "/react-portfolio/static/js/main.6f4c9900.chunk.js"
+  },
+  {
+    "revision": "ddd660d8737ee0fe43a58553c712816f",
+    "url": "/react-portfolio/static/media/fairtrade.ddd660d8.png"
   },
   {
     "revision": "73de79ba5b8309d0cbdd72e8c03a1af3",
@@ -92,7 +96,7 @@ self.__precacheManifest = [
     "url": "/react-portfolio/static/media/logo.5d5d9eef.svg"
   },
   {
-    "revision": "b4d42394a9aca51d5b02bfb529bcab5a",
+    "revision": "28f43b2b03095768b1489c3f4a79559f",
     "url": "/react-portfolio/index.html"
   }
 ];
