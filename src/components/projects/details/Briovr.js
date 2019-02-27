@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {brioBKG, briop1, briop2,brioAnim,brioref,briodesign,brios1,briodesign2,} from '../../../Constants/Image'
+import {brioBKG, briop1, briop2,brioAnim,brioref,briodesign,brios1,briodesign2,briotweet} from '../../../Constants/Image'
 
 const ref = {
   width: '100%',
@@ -8,7 +8,7 @@ const ref = {
   backgroundSize:'contain',
   backgroundRepeat: 'no-repeat',
   backgroundImage: `url(${brioref})`
-};
+}
 
 const design = {
   width: '100%',
@@ -17,7 +17,16 @@ const design = {
   backgroundSize:'contain',
   backgroundRepeat: 'no-repeat',
   backgroundImage: `url(${briodesign})`
-};
+}
+
+const tweet = {
+  width: '100%',
+  height:'400px',
+  margin:'auto',
+  backgroundSize:'contain',
+  backgroundRepeat: 'no-repeat',
+  backgroundImage: `url(${briotweet})`
+}
 
 export default class Briovr extends Component {
 
@@ -138,14 +147,15 @@ export default class Briovr extends Component {
               <p>It was easier to design the height indicator after setting the base style and colour from the base. The height indicator
               was refering to rulers and and grid system we were using in Brio. The distance between each dot is the same distance between
               each 'x' on the grid. In this way, users wouldn't need to think about whether the distances were the same.</p>
-              <h4>The Rules</h4>
-              <p>Other than designing the actual appearance of the indicator, I also set the rules of the indicator. Here are the rules:</p>
-              <ul>
-                <li>When - The indicator appears when a object is being manipulated (move, scale, rotate)</li>
-                <li>Where - The base should always be on the grid. The other side of the indicator should be in from the ceter of the object.</li>
-              </ul>
               </div>
             </div>
+
+            <h4>The Rules</h4>
+            <p>Other than designing the actual appearance of the indicator, I also set the rules of the indicator. Here are the rules:</p>
+            <ul>
+              <li>When - The indicator appears when a object is being manipulated (move, scale, rotate)</li>
+              <li>Where - The base should always be on the grid. The other side of the indicator should be in from the ceter of the object.</li>
+            </ul>
 
 
             <h3>The Prototype</h3>
@@ -153,7 +163,14 @@ export default class Briovr extends Component {
             I quickly made some prototypes within Brio with animations.</p>
             <div className='split-section'>
               <div className='split-left'><video className='brio-animation' src={brioAnim} autoPlay loop muted/></div>
-              <div className='split-right'><h4>Give It A Bit Characteristics</h4><p></p></div>
+              <div className='split-right'>
+                <h4>Give It A Bit Characteristics</h4>
+                <p>To make the indicator more responsive and obvious, I added some animation to make it react more to user's
+                  interactions. For the height indicator, it pops up a sphere when the object moves up (or down underneath the grid)
+                  0.5 meters (Brio unit). And a sphere will disapear when it reaches the base on both ways. The motion brought the
+                  indicator a bit more characteristics but not too much.
+                </p>
+              </div>
 
             </div>
 
@@ -173,6 +190,10 @@ export default class Briovr extends Component {
             </ul>
 
             <h3>Detailed Design</h3>
+
+            <h3>Social Prof</h3>
+              <div className='project-image'><div style={ tweet }></div></div>
+
 
 
             <h3>Takeaways</h3>

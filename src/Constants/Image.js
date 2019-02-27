@@ -6,6 +6,8 @@ import brioref from '../assets/projects/briovr/ref.png'
 import briodesign from '../assets/projects/briovr/design0.png'
 import briodesign2 from '../assets/projects/briovr/indicator2.png'
 import brios1 from '../assets/projects/briovr/s1.png'
+import briotweet from '../assets/projects/briovr/tweet.png'
+
 
 
 import ftBKG from '../assets/projects/fairtrade/fairtrade.png'
@@ -30,7 +32,7 @@ export {
   briop2,
   brioAnim,
   brioref,
-  briodesign,briodesign2,
+  briodesign,briodesign2,briotweet,
   brios1,
   ftBKG,
   fgIA,
