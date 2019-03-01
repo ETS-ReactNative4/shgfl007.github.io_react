@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {brioBKG, briop1, briop2,brioAnim,brioref,briodesign,brios1,briodesign2,briotweet} from '../../../Constants/Image'
+import {brioBKG, briop1, briop2,brioAnim,brioref,briodesign,brios1,briodesign2,briotweet,briodetail} from '../../../Constants/Image'
 
 const ref = {
   width: '100%',
@@ -26,6 +26,15 @@ const tweet = {
   backgroundSize:'contain',
   backgroundRepeat: 'no-repeat',
   backgroundImage: `url(${briotweet})`
+}
+
+const detail = {
+  width: '100%',
+  height:'400px',
+  margin:'auto',
+  backgroundSize:'contain',
+  backgroundRepeat: 'no-repeat',
+  backgroundImage: `url(${briodetail})`
 }
 
 export default class Briovr extends Component {
@@ -190,6 +199,8 @@ export default class Briovr extends Component {
             </ul>
 
             <h3>Detailed Design</h3>
+            <div className='project-image'><img src={briodetail} /></div>
+
 
             <h3>Social Prof</h3>
               <div className='project-image'><div style={ tweet }></div></div>
