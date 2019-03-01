@@ -171,7 +171,8 @@ export default class Briovr extends Component {
             <p>I've made some quick mockups in Adobe XD, but the indicator is supposed to be used in 3D space. 2D mockups won't be good enough to
             represent how the indicator will look and function in a 3D space. So I built a quick prototype inside Brio since it was the fastest way
             I can think of to make a prototype in 3D without coding.
-            I quickly made some prototypes within Brio with animations.</p>
+            </p>
+            <p><a href='' target='_blank'>Here's the link to the prototype</a></p>
             <div className='split-section'>
               <div className='split-left'><video className='brio-animation' src={brioAnim} autoPlay loop muted/></div>
               <div className='split-right'>
@@ -184,6 +185,8 @@ export default class Briovr extends Component {
               </div>
 
             </div>
+
+            <h4>Test</h4>
 
             <p>The prototype stage had 2 stages. Stage 1 is 2D prototyping.
               This stage contains the appearance and function of the indicator
