@@ -168,10 +168,22 @@ export default class Briovr extends Component {
 
 
             <h3>The Prototype</h3>
-            <p>I've made some quick mockups in Adobe XD, but the indicator is supposed to be used in 3D space. 2D mockups won't be good enough to
+            <p>I've made some quick mockups in Adobe XD, but the indicator is supposed to be used in 3D space. 2D mockups won\'t be good enough to
             represent how the indicator will look and function in a 3D space. So I built a quick prototype inside Brio since it was the fastest way
             I can think of to make a prototype in 3D without coding.
             </p>
+            <p>I included following aspects in the mockup:'</p>
+            <ul>
+              <li>A variaty of shapes of objects (using objects from Google Poly library)</li>
+              <li>Different sizes of objects</li>
+              <li>Objects that were rotated to different angels</li>
+            </ul>
+
+            <p>From the mockup, I added 2 more rules based on the tests and discoveries:</p>
+            <ul>
+              <li>The bottom part of the indicator has a minium and a maxium size, so it won't get lost when the model is either too small or too big</li>
+              <li>The indicator is based from the center of the object's bounding box instead of pivit points</li>
+            </ul>
             <p><a href='' target='_blank'>Here's the link to the prototype</a></p>
             <div className='split-section'>
               <div className='split-left'><video className='brio-animation' src={brioAnim} autoPlay loop muted/></div>
@@ -186,25 +198,39 @@ export default class Briovr extends Component {
 
             </div>
 
-            <h4>Test</h4>
-
-            <p>The prototype stage had 2 stages. Stage 1 is 2D prototyping.
-              This stage contains the appearance and function of the indicator
-              using Adobe XD.I took how people see 3d objects in real life as
-              a reference and created a prototype imitate shadow. Stage 2 is 3D
-              prototyping. This stage was done within brio using primitives and
-              a plane to represent the bottom of the indicator. This stage also
-              includes prototyping the animation.</p>
-            <p>For the testing stage, I wanted to know if the indicator can:
-            </p>
-            <ul>
-              <li>Be visible with any background colour</li>
-              <li>Represent where the 3d object is (x,y,z direction)</li>
-              <li>Be easily understood by users with less 3d experiences</li>
-            </ul>
-
             <h3>Detailed Design</h3>
             <div className='project-image'><img src={briodetail} /></div>
+            <p>The design doc contains the basic designs of the indicator. Since it was different than 2D design, there wasn't too many pixel relationed
+            aspects. The mockup was passed to the developer along with this design doc so he could have a better understanding of the feature and see the
+            animation easier.</p>
+
+            <h3>Test It Out</h3>
+            <p>It's different to prototype in 3D space and it's different to test within 3D space. After talking to the developer that was
+              assigned to the task, we decided to use the prototype as a reference to start
+              developing and test it out when the indicator is interactable. </p>
+            <p>The tests were focusing the following questions that I wasn't sure when doing tests on 2D prototypes:</p>
+            <ul>
+              <li>Is the indicator visible with any background colour?</li>
+              <li>Can the indicator represent where the 3d object is (x,y,z direction)?</li>
+              <li>Can the user understand how the indicator work?</li>
+              <li>Is there other things that I didn't consider when I was doing the design?</li>
+            </ul>
+
+            <h3>Developing & Testing</h3>
+            <p>Just like the mockup, we used objects with different shape and sizes and tested with different people in-house. From the result,
+            we changed following things:</p>
+            <ul>
+              <li>The maxium size of the bottom indicator</li>
+              <li>The minium size of the bottom indicator</li>
+              <li>The starting point of the indicator changed from the center of the bounding box to the center of the bottom face of the bounding box</li>
+              <li>The indicator will always be on top of anything in the scene (other than the editor interface)</li>
+            </ul>
+            <p>In addition to the list, we changed the animtion to a simpler one due to development timeline.</p>
+
+          <h3>In App Result</h3>
+
+
+
 
 
             <h3>Social Prof</h3>
