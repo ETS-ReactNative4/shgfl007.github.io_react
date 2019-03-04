@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {brioBKG, briop1, briop2,brioAnim,brioref,briodesign,brios1,briodesign2,briotweet,briodetail} from '../../../Constants/Image'
+import {brioBKG, briop1, briop2,brioAnim,brioref,briodesign,brios1,briodesign2,briotweet,briodetail, brioFin} from '../../../Constants/Image'
 
 const ref = {
   width: '100%',
@@ -21,7 +21,7 @@ const design = {
 
 const tweet = {
   width: '100%',
-  height:'400px',
+  height:'280px',
   margin:'auto',
   backgroundSize:'contain',
   backgroundRepeat: 'no-repeat',
@@ -45,7 +45,7 @@ export default class Briovr extends Component {
         <div className='header-home animated project-header-section' >
             <h1 className='title'>Making Editing 3D Scenes Easier</h1>
             <hr/>
-            <h3>BRIOVR</h3>
+            <h2>BRIOVR</h2>
             <p>Solve the problem of placing objects in 3D space using 2D editor</p>
             <div className='hero-img' style={{backgroundImage:`url(${brioBKG})`}}></div>
           </div>
@@ -58,7 +58,7 @@ export default class Briovr extends Component {
               editing in BRIOVR builder.</p>
 
               <div className='section-block'>
-                <h3>Challenges</h3>
+                <h2>Challenges</h2>
                 <ul>
                   <li>Show 3d space inside the 2d editor</li>
                   <li>Responsive to object's movements and size changes in realtime</li>
@@ -67,7 +67,7 @@ export default class Briovr extends Component {
 
               </div>
 
-              <h3>Personas</h3>
+              <h2>Personas</h2>
               <div className='persona-section'>
 
                 <div className='persona-card'>
@@ -85,13 +85,13 @@ export default class Briovr extends Component {
                 </div>
               </div>
 
-              <h3>Team and Roles</h3>
+              <h2>Team and Roles</h2>
               <p>For this project, I’m working as the UI/UX designer.
                 I was working with a developer to build this feature for BRIOVR.</p>
 
 
 
-            <h3>Discovery</h3>
+            <h2>Discovery</h2>
             <div className='project-image'><div style={ ref }></div></div>
 
             <p>Before getting started into the design process, I did some research
@@ -110,7 +110,7 @@ export default class Briovr extends Component {
 
 
 
-            <h3>Design, Mockup and Iterations</h3>
+            <h2>Design, Mockup and Iterations</h2>
 
               <div className='split-section'>
                 <div className='split-left'><img src={brios1} /></div>
@@ -164,10 +164,11 @@ export default class Briovr extends Component {
             <ul>
               <li>When - The indicator appears when a object is being manipulated (move, scale, rotate)</li>
               <li>Where - The base should always be on the grid. The other side of the indicator should be in from the ceter of the object.</li>
+              <li>What - The indicator should appear for: primitives, 3D models, images, videos, waypoints (camera & movement), player camera</li>
             </ul>
 
 
-            <h3>The Prototype</h3>
+            <h2>The Prototype</h2>
             <p>I've made some quick mockups in Adobe XD, but the indicator is supposed to be used in 3D space. 2D mockups won\'t be good enough to
             represent how the indicator will look and function in a 3D space. So I built a quick prototype inside Brio since it was the fastest way
             I can think of to make a prototype in 3D without coding.
@@ -198,13 +199,13 @@ export default class Briovr extends Component {
 
             </div>
 
-            <h3>Detailed Design</h3>
+            <h2>Detailed Design</h2>
             <div className='project-image'><img src={briodetail} /></div>
             <p>The design doc contains the basic designs of the indicator. Since it was different than 2D design, there wasn't too many pixel relationed
             aspects. The mockup was passed to the developer along with this design doc so he could have a better understanding of the feature and see the
             animation easier.</p>
 
-            <h3>Test It Out</h3>
+          <h2>Test It Out</h2>
             <p>It's different to prototype in 3D space and it's different to test within 3D space. After talking to the developer that was
               assigned to the task, we decided to use the prototype as a reference to start
               developing and test it out when the indicator is interactable. </p>
@@ -216,7 +217,7 @@ export default class Briovr extends Component {
               <li>Is there other things that I didn't consider when I was doing the design?</li>
             </ul>
 
-            <h3>Developing & Testing</h3>
+            <h2>Developing & Testing</h2>
             <p>Just like the mockup, we used objects with different shape and sizes and tested with different people in-house. From the result,
             we changed following things:</p>
             <ul>
@@ -227,18 +228,34 @@ export default class Briovr extends Component {
             </ul>
             <p>In addition to the list, we changed the animtion to a simpler one due to development timeline.</p>
 
-          <h3>In App Result</h3>
+          <h2>In App Result & Future Developments</h2>
+          <div className='brio-fin-video'><video className='brio-animation' src={brioFin} autoPlay loop muted/></div>
+          <p>The final result of the indicator helped to locate objects within 3D space. From our analytics, I found that
+          it surprisingly helped a lot on the waypoints other than 3D objects. For future developments, I would love to include: </p>
+          <ul>
+            <li>Add back the animation to make Brio more fun to use</li>
+            <li>Adjust the base more based on the average model that users use</li>
+            <li>Add inspector support when user drags model from the Brio library or Google Poly library and from their computer</li>
+          </ul>
 
 
 
-
-
-            <h3>Social Prof</h3>
+          <h2>Social Proof</h2>
               <div className='project-image'><div style={ tweet }></div></div>
+              <p>From our user Marie Graham's tweets, we found that Brio was easy and intuitive for students to build quick prototypes
+              to experience in VR, which was great to hear as we wanted Brio to be a tool for building MVPs. </p>
 
 
 
-            <h3>Takeaways</h3>
+            <h2>Takeaways</h2>
+          <p>I learned a lot from designing and developing this feature:</p>
+          <ul>
+            <li>Always talk to the team! They are all smart people, and I can always learn from them. Plus, fresh eyes are always helpful!</li>
+            <li>Never be afraid to try new things! I was going to use After Effects for the animation and prototype, but ended up with using Brio,
+               which saved me time and efforts and worked well for me and the developer.</li>
+             <li>Sometimes, it's fine to change the workflow! We tested the feature as we developing it. This wasn't the regular workflow, but
+             for this feature it actually shorten the development circle!</li>
+          </ul>
 
           </div>
     </div>
