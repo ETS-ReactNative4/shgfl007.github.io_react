@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {foguangBKG, fgflow, fgIA, briop1, briop2, fgmain,fgphoto,fgp1, fgdp} from '../../../Constants/Image'
+import {foguangBKG, fgflow, fgIA, briop1, briop2, fgmain,fgphoto,fgp1, fgdp, fgvid} from '../../../Constants/Image'
 import Persona from './components/persona'
 
 const personas = [
@@ -22,7 +22,7 @@ export default class Foguang extends Component {
 
             <h1 className='title'>Telling the Story Behind Acient Temple with Digital Media</h1>
             <hr/>
-            <h3>Foguang Temple Touring Guide</h3>
+            <h2>Foguang Temple Touring Guide</h2>
             <p>Getting to know not only the audience but also the environment.</p>
             <div className='hero-img' style={{backgroundImage:`url(${fgmain})`}}></div>
           </div>
@@ -41,12 +41,12 @@ export default class Foguang extends Component {
               <li>Role: Product Designer / Developer, Client Contact Person</li>
             </ul>
 
-            <h3>Team and Roles</h3>
+            <h2>Team and Roles</h2>
             <p>I worked on the UI/UX design and development with another designer.
               In addition to the app development, I also worked as the contact point between us
               and the client.
             </p>
-            <h3>Design Process</h3>
+            <h2>Design Process</h2>
             <img className='project-img project-img-small' src={fgdp} />
 
 
@@ -146,6 +146,7 @@ export default class Foguang extends Component {
              visitors since some of them would be looking at the site at their home and they would have their own VR
             goggles and would have enough time to go through everything.</p>
 
+
           <h3>Future Development</h3>
           <p>At the end of the project, we made another purposal for future development since at the time, the technology
           that suited the senerio best wasn't available.</p>
@@ -165,6 +166,10 @@ export default class Foguang extends Component {
           <img src={fgp1} />
 
             <h3>Result</h3>
+            <div className='project-image'>
+              <video className='brio-animation' src={fgvid} autoPlay loop muted/>
+
+            </div>
             <p>The app can be found on the Google Chrome Store:</p>
             <p><a href='https://chrome.google.com/webstore/detail/foguangapptestapp/nklaaogghgabcbdilaapmfbjlmbinmjp?authuser=1'
               target='_blank'>FoGuang App</a></p>
