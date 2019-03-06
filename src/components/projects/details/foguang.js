@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {foguangBKG, fgflow, fgIA, briop1, briop2, fgmain,fgphoto,fgp1, fgdp, fgvid} from '../../../Constants/Image'
+import {foguangBKG, fgflow, fgIA, briop1, briop2, fgmain,fgphoto,fgp1, fgdp, fgvid, fgdd} from '../../../Constants/Image'
 import Persona from './components/persona'
 
 const personas = [
@@ -163,7 +163,13 @@ export default class Foguang extends Component {
             <h2>Product</h2>
             <hr/>
           <h3>Detailed Design</h3>
-          <img src={fgp1} />
+          <div className='project-image'>
+            <img src={fgdd} />
+          </div>
+          <p>For the detailed designs, we studied the styles of Tang dynasty to highlight the cultural aspect. The color was based on
+            patterns found on cellings and wall paintings from the similar era. The elements for the timeline was based on buddhism stories and symbols.
+             The icons for indoor interactions were based on types of the content: subject description or background story.</p>
+           <p>In this way, we connect the app visually with the background concept to give the audiences a more immersived experiences.</p>
 
             <h3>Result</h3>
             <div className='project-image'>
