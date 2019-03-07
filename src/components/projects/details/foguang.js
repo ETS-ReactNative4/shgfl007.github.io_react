@@ -13,6 +13,15 @@ const personas = [
   }
 ]
 
+const flow = {
+  width: '200px',
+  height:'400px',
+  margin:'auto',
+  backgroundSize:'contain',
+  backgroundRepeat: 'no-repeat',
+  backgroundImage: `url(${fgflow})`
+}
+
 export default class Foguang extends Component {
 
   render() {
@@ -113,6 +122,19 @@ export default class Foguang extends Component {
 
             <h2>Prototyping and Tests</h2>
             <hr />
+              <h3>The Flow (First Try)</h3>
+                <div className='split-section'>
+                  <div className='split-left'><img className='foguang-photo' src={fgflow} /></div>
+                  <div className='split-right'>
+                    <p>We decided to create a touring guide for the temple. Because we had 2 types of personas, one was professionals and the other was
+                    hobbyist that loved Chinese architectures, we decided to provide the audiences with 2 different routes. One was curated route for hobbyists. This route would
+                    be designed to go through everything about the Foguang Temple and guide the audience to go to different halls one by one. The other one was self-guided tour.
+                    This would give the seasoned audiences freedom to choose where to go.
+                    </p>
+                    <p>Our client thought that this way they might not be able to tell the full story behind the temple. They would like to tell some of the background stories
+                    before guiding the audiences into the East hall.</p>
+                  </div>
+                </div>
             <h3>Information Architecture</h3>
             <img className='project-img' src={fgIA}/>
             <p>We worked closely with our client to narraw down the storyline. </p>
@@ -126,9 +148,8 @@ export default class Foguang extends Component {
               <p>In this section, we tell the story that are related to the Temple, so that the audience can see the content within
               its context.</p>
 
-            <h3>The Mockup</h3>
-            <p>After creating the the IA diagram, we did a quick mockup for our client to review.</p>
-            <p>This mockup represented the flow we wanted to go with: start with the background story </p>
+
+
 
             <h3>VR or Not VR</h3>
             <p>Because we had a huge section that contains 360 photos, our client was considering it to be VR enabled.</p>
@@ -147,15 +168,7 @@ export default class Foguang extends Component {
             goggles and would have enough time to go through everything.</p>
 
 
-          <h3>Future Development</h3>
-          <p>At the end of the project, we made another purposal for future development since at the time, the technology
-          that suited the senerio best wasn't available.</p>
-          <p>In the future development purposal we included the following points:</p>
-          <ul>
-          <li>Create an immersive onsite experience by adding image recognition</li>
-          <li>Separating the onsite and offsite experiences by offering more tailored experiences</li>
-          <li>Adding detailed scans from our client to showcase the statues inside the Great East Hall</li>
-          </ul>
+
 
 
 
@@ -172,13 +185,23 @@ export default class Foguang extends Component {
            <p>In this way, we connect the app visually with the background concept to give the audiences a more immersived experiences.</p>
 
             <h3>Result</h3>
-            <div className='project-image'>
-              <video className='brio-animation' src={fgvid} autoPlay loop muted/>
+            <div className='brio-fin-video'>
+              <video className='brio-fin-video' src={fgvid} autoPlay loop muted/>
 
             </div>
             <p>The app can be found on the Google Chrome Store:</p>
             <p><a href='https://chrome.google.com/webstore/detail/foguangapptestapp/nklaaogghgabcbdilaapmfbjlmbinmjp?authuser=1'
               target='_blank'>FoGuang App</a></p>
+
+              <h3>Future Development</h3>
+              <p>At the end of the project, we made another purposal for future development since at the time, the technology
+              that suited the senerio best wasn't available.</p>
+              <p>In the future development purposal we included the following points:</p>
+              <ul>
+              <li>Create an immersive onsite experience by adding image recognition</li>
+              <li>Separating the onsite and offsite experiences by offering more tailored experiences</li>
+              <li>Adding detailed scans from our client to showcase the statues inside the Great East Hall</li>
+              </ul>
 
 
             <h2>Takeaways</h2>
