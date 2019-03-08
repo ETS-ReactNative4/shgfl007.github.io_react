@@ -51,12 +51,28 @@ export default class Foguang extends Component {
             </ul>
 
             <h2>Team and Roles</h2>
-            <p>I worked on the UI/UX design and development with another designer.
-              In addition to the app development, I also worked as the contact point between us
-              and the client.
+            <p>I worked as one of the product designers on this project and also involded in
+            development for the 360 tour. My work can be summarized as:
             </p>
+            <ul>
+              <li>Project management (contacting point between the client and us)</li>
+              <li>Define challenges</li>
+              <li>User research</li>
+              <li>Information architect</li>
+              <li>Wireframe, prototype</li>
+              <li>Implementation</li>
+            </ul>
             <h2>Design Process</h2>
             <img className='project-img project-img-small' src={fgdp} />
+            <p>For this project, we took the following steps to design and develope the experience</p>
+            <ul>
+            <li>Talked to the client, had better understanding of the challenges & problems</li>
+            <li>Research on the users based on client's requirements</li>
+            <li>Create the information architecture based on the content</li>
+            <li>Storyboard on user interactions & wireframes</li>
+            <li>Prototyping</li>
+            <li>Implementation</li>
+            </ul>
 
 
 
