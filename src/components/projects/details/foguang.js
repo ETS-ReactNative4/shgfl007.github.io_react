@@ -100,7 +100,7 @@ export default class Foguang extends Component {
                 </div>
 
 
-              <h3>The Location & The Visitors</h3>
+              <h3>Location & Visitors</h3>
               <div className='split-section'>
                 <div className='split-left'>
                   <img className='foguang-photo' src={fgphoto} />
@@ -128,9 +128,9 @@ export default class Foguang extends Component {
 
               <h3>Current Solutions</h3>
               <h4>For Client</h4>
-              <ul><li>Indexed software for the database (not open to public)</li><li>Give presentations</li></ul>
+              <ul><li>Indexed software for the database (not open to public)</li><li>Give presentations in person</li></ul>
               <h4>For Visitors</h4>
-              <ul><li>Read books</li><li>Learn from their professors</li><li>Online research</li></ul>
+              <ul><li>Read books (library, textbooks)</li><li>Learn from their professors</li><li>Online research</li></ul>
 
 
 
@@ -149,6 +149,8 @@ export default class Foguang extends Component {
                     </p>
                     <p>Our client thought that this way they might not be able to tell the full story behind the temple. They would like to tell some of the background stories
                     before guiding the audiences into the East hall.</p>
+
+                  <p>After the discusstion, because both of the client and us had a better idea of what to do, we decided to collaborate with our client first to curate the story and tailor the experience accordingly.</p>
                   </div>
                 </div>
             <h3>Information Architecture</h3>
@@ -183,6 +185,9 @@ export default class Foguang extends Component {
              visitors since some of them would be looking at the site at their home and they would have their own VR
             goggles and would have enough time to go through everything.</p>
 
+          <h3>Learn from Museums</h3>
+          <p>We looked into systems that were adapted to help guide visitors in museums.</p>
+
 
 
 
@@ -208,6 +213,12 @@ export default class Foguang extends Component {
             <p>The app can be found on the Google Chrome Store:</p>
             <p><a href='https://chrome.google.com/webstore/detail/foguangapptestapp/nklaaogghgabcbdilaapmfbjlmbinmjp?authuser=1'
               target='_blank'>FoGuang App</a></p>
+            <p>We went to the site with our client after creating the app and did some onsite tests. We got some great feedback from visitors:</p>
+            <ul>
+              <li>"The app showed some great background stories that I wouldn't need to go back to books all the time..."</li>
+              <li>"It shows the detail that we wouldn't be able to see because they are inside the cage which is amazing..."</li>
+              <li>"This will be available online? That would be great!"</li>
+            </ul>
 
               <h3>Future Development</h3>
               <p>At the end of the project, we made another purposal for future development since at the time, the technology
