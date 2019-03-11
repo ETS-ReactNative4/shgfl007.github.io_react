@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "ab18f594d5748de3c15498e123bcd1d0",
-    "url": "/react-portfolio/static/media/indicatorFin.ab18f594.mp4"
+    "revision": "ddd660d8737ee0fe43a58553c712816f",
+    "url": "/react-portfolio/static/media/fairtrade.ddd660d8.png"
   },
   {
-    "revision": "ae7b77d1d3a9fb6eed6e",
-    "url": "/react-portfolio/static/css/main.85f9601d.chunk.css"
+    "revision": "976e75902edcc90bdb7b",
+    "url": "/react-portfolio/static/css/main.ac6b24f9.chunk.css"
   },
   {
-    "revision": "097c5eb48d72fe092789",
-    "url": "/react-portfolio/static/js/1.097c5eb4.chunk.js"
+    "revision": "1f3b1fac5a999381cde9",
+    "url": "/react-portfolio/static/js/1.1f3b1fac.chunk.js"
   },
   {
     "revision": "f8926043fa4459ec0101",
@@ -56,12 +56,12 @@ self.__precacheManifest = [
     "url": "/react-portfolio/static/media/detail.93ecb5b8.png"
   },
   {
-    "revision": "ae7b77d1d3a9fb6eed6e",
-    "url": "/react-portfolio/static/js/main.ae7b77d1.chunk.js"
+    "revision": "ab18f594d5748de3c15498e123bcd1d0",
+    "url": "/react-portfolio/static/media/indicatorFin.ab18f594.mp4"
   },
   {
-    "revision": "ddd660d8737ee0fe43a58553c712816f",
-    "url": "/react-portfolio/static/media/fairtrade.ddd660d8.png"
+    "revision": "976e75902edcc90bdb7b",
+    "url": "/react-portfolio/static/js/main.976e7590.chunk.js"
   },
   {
     "revision": "73de79ba5b8309d0cbdd72e8c03a1af3",
@@ -104,6 +104,10 @@ self.__precacheManifest = [
     "url": "/react-portfolio/static/media/dd.632d7503.png"
   },
   {
+    "revision": "43e33a65c8c02be2ca9db691ecc57279",
+    "url": "/react-portfolio/static/media/audioG.43e33a65.jpg"
+  },
+  {
     "revision": "05c3c0a39baa86858b592753ace476d7",
     "url": "/react-portfolio/static/media/profile_new.05c3c0a3.png"
   },
@@ -112,7 +116,7 @@ self.__precacheManifest = [
     "url": "/react-portfolio/static/media/logo.5d5d9eef.svg"
   },
   {
-    "revision": "3471d335c30e36ad0be3441eec684c8a",
+    "revision": "35e8a8b73fab8d0c6efdb51a494191e2",
     "url": "/react-portfolio/index.html"
   }
 ];
