@@ -23,6 +23,7 @@ import fgp1 from '../assets/projects/foguang/p1.png'
 import fgdp from '../assets/projects/foguang/designP.png'
 import fgvid from '../assets/projects/foguang/vid.mp4'
 import fgdd from '../assets/projects/foguang/dd.png'
+import fgaudio from '../assets/projects/foguang/audioG.jpg'
 
 
 import profile from '../assets/img/profile_new.png'
@@ -42,7 +43,7 @@ export {
   fgmain,
   fgphoto,
   fgp1,
-  fgdp,fgvid,fgdd,
+  fgdp,fgvid,fgdd,fgaudio,
   gameBKG,
   foguangBKG,
   fgflow,

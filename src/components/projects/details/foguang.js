@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {foguangBKG, fgflow, fgIA, briop1, briop2, fgmain,fgphoto,fgp1, fgdp, fgvid, fgdd} from '../../../Constants/Image'
+import {foguangBKG, fgflow, fgIA, briop1, briop2, fgmain,fgphoto,fgp1, fgdp, fgvid, fgdd,fgaudio} from '../../../Constants/Image'
 import Persona from './components/persona'
 
 const personas = [
@@ -147,12 +147,14 @@ export default class Foguang extends Component {
                     be designed to go through everything about the Foguang Temple and guide the audience to go to different halls one by one. The other one was self-guided tour.
                     This would give the seasoned audiences freedom to choose where to go.
                     </p>
-                    <p>Our client thought that this way they might not be able to tell the full story behind the temple. They would like to tell some of the background stories
-                    before guiding the audiences into the East hall.</p>
-
-                  <p>After the discusstion, because both of the client and us had a better idea of what to do, we decided to collaborate with our client first to curate the story and tailor the experience accordingly.</p>
                   </div>
                 </div>
+                <p>Our client thought that this way they might not be able to tell the full story behind the temple. They would like to tell some of the background stories
+                before guiding the audiences into the East hall.</p>
+
+              <p>After the discusstion, because both of the client and us had a better idea of what to do, we decided to collaborate with our client first to curate the story and tailor the experience accordingly.</p>
+
+
             <h3>Information Architecture</h3>
             <img className='project-img' src={fgIA}/>
             <p>We worked closely with our client to narraw down the storyline. </p>
@@ -186,7 +188,31 @@ export default class Foguang extends Component {
             goggles and would have enough time to go through everything.</p>
 
           <h3>Learn from Museums</h3>
-          <p>We looked into systems that were adapted to help guide visitors in museums.</p>
+          <p>After creating the the IA, we realized that this experience was very content heavy. Let’s face the truth, no one reads nowadays!
+            We realized that we were facing the situation that many museums were facing: </p>
+          <ul>
+            <li>Visitors are in the same room with the subject</li>
+            <li>The subject had so much story behind that could not be shown with the subject</li>
+            <li>Visitors has limited time and concentration with each subject</li>
+          </ul>
+          <div className='split-section'>
+            <div className='split-left'><img className='foguang-photo' src={fgaudio} /></div>
+            <div className='split-right'>
+            <p>We researched how museums solved these problem. This might not be the best solution but it worked for many museums: audio guide.
+               We pitched the audio guide idea to the client with these benefits:
+            </p>
+            <ul>
+              <li>Visitors don't need to read anything</li>
+              <li>The guide won't steal visitors attention too much</li>
+              <li>With the audio plus some background music, it could create a more immersive experience</li>
+            </ul>
+          </div>
+        </div>
+        <p>We added vioce over for all the main contents. For the first 2 chapters, we also added some background music to create a more immersive
+        experience. For most of the import content within the 360 experience, we also added voice over. So that the visitors could look at the subject
+        and listen to the story behind. We tried to keep the part without vioce over to be very short. In this case, the visitor wouldn't need to spend a
+        long time reading.</p>
+      <p></p>
 
 
 
