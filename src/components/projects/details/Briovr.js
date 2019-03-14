@@ -185,7 +185,8 @@ export default class Briovr extends Component {
               <li>The bottom part of the indicator has a minium and a maxium size, so it won't get lost when the model is either too small or too big</li>
               <li>The indicator is based from the center of the object's bounding box instead of pivit points</li>
             </ul>
-            <p><a href='' target='_blank'>Here's the link to the prototype</a></p>
+            <p><a href='https://view.briovr.com/5b346383-9811-4f1f-a1f7-60e9271094bb' target='_blank'>Here's the link to the prototype</a></p>
+            <iframe src="https://view.briovr.com/5b346383-9811-4f1f-a1f7-60e9271094bb?minium=true" width="640" height="360" frameborder="0" allowfullscreen />
             <div className='split-section'>
               <div className='split-left'><video className='brio-animation' src={brioAnim} autoPlay loop muted/></div>
               <div className='split-right'>
