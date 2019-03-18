@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "ddd660d8737ee0fe43a58553c712816f",
-    "url": "/react-portfolio/static/media/fairtrade.ddd660d8.png"
+    "revision": "73de79ba5b8309d0cbdd72e8c03a1af3",
+    "url": "/react-portfolio/static/media/rulebkg.73de79ba.jpg"
   },
   {
-    "revision": "976e75902edcc90bdb7b",
-    "url": "/react-portfolio/static/css/main.ac6b24f9.chunk.css"
+    "revision": "fb435537125e33da37b8",
+    "url": "/react-portfolio/static/css/main.c5c8a2c9.chunk.css"
   },
   {
-    "revision": "1f3b1fac5a999381cde9",
-    "url": "/react-portfolio/static/js/1.1f3b1fac.chunk.js"
+    "revision": "6878b95e5ab9c8b63bea",
+    "url": "/react-portfolio/static/js/1.6878b95e.chunk.js"
   },
   {
     "revision": "f8926043fa4459ec0101",
@@ -60,12 +60,12 @@ self.__precacheManifest = [
     "url": "/react-portfolio/static/media/indicatorFin.ab18f594.mp4"
   },
   {
-    "revision": "976e75902edcc90bdb7b",
-    "url": "/react-portfolio/static/js/main.976e7590.chunk.js"
+    "revision": "ddd660d8737ee0fe43a58553c712816f",
+    "url": "/react-portfolio/static/media/fairtrade.ddd660d8.png"
   },
   {
-    "revision": "73de79ba5b8309d0cbdd72e8c03a1af3",
-    "url": "/react-portfolio/static/media/rulebkg.73de79ba.jpg"
+    "revision": "fb435537125e33da37b8",
+    "url": "/react-portfolio/static/js/main.fb435537.chunk.js"
   },
   {
     "revision": "f657fe0c1a4d50b690f2ab8b334fb48c",
@@ -76,16 +76,16 @@ self.__precacheManifest = [
     "url": "/react-portfolio/static/media/MockupFlow.9f423af2.png"
   },
   {
-    "revision": "52f9d8ef30ab22c76a99c3c1a7582fd3",
-    "url": "/react-portfolio/static/media/foguangIA.52f9d8ef.png"
+    "revision": "6a86740421cdc994b049319ad0ded7bf",
+    "url": "/react-portfolio/static/media/foguangIA.6a867404.png"
   },
   {
     "revision": "511d4b81a6ed710e69f969060ec4f8dd",
     "url": "/react-portfolio/static/media/main.511d4b81.png"
   },
   {
-    "revision": "b3df2bd4e0f58a19fe8326d661713b38",
-    "url": "/react-portfolio/static/media/photo.b3df2bd4.JPG"
+    "revision": "32911f51edad095acf7f8b8d7d21e951",
+    "url": "/react-portfolio/static/media/photo1.32911f51.jpg"
   },
   {
     "revision": "6f9641b2de021eb1257239a64185d888",
@@ -108,6 +108,14 @@ self.__precacheManifest = [
     "url": "/react-portfolio/static/media/audioG.43e33a65.jpg"
   },
   {
+    "revision": "7d9c18cb334ee3cb272d6436846215ed",
+    "url": "/react-portfolio/static/media/ROUTE.7d9c18cb.png"
+  },
+  {
+    "revision": "73a808498482d70919e3c3f4cbc8db1c",
+    "url": "/react-portfolio/static/media/demo_ui_2.73a80849.mp4"
+  },
+  {
     "revision": "05c3c0a39baa86858b592753ace476d7",
     "url": "/react-portfolio/static/media/profile_new.05c3c0a3.png"
   },
@@ -116,7 +124,7 @@ self.__precacheManifest = [
     "url": "/react-portfolio/static/media/logo.5d5d9eef.svg"
   },
   {
-    "revision": "35e8a8b73fab8d0c6efdb51a494191e2",
+    "revision": "abb5e8b4aa0ed1618d180a5e7805bd5d",
     "url": "/react-portfolio/index.html"
   }
 ];
