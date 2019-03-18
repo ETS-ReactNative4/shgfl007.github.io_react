@@ -16,10 +16,11 @@
     max-width: 700px;
     margin: 32px auto;
   }
-  h2{
+  h1,h2{
     text-align: center;
   }
-  p{
+
+  p,ul,li{
     text-align: left;
     color: $black;
     font-weight: 400;
@@ -109,4 +110,24 @@
 .brio-fin-video{
   max-width: 800px;
   margin: auto;
+}
+
+.section-title{
+  margin-top: 64px !important;
+  margin-bottom: 16px !important;
+}
+
+.first-section-par{
+  margin-top: 8px !important;
+}
+ul{
+  margin: 0 auto !important;
+}
+
+.list-title{
+  margin-bottom: 8px !important;
+}
+
+.project-section{
+  margin: 88px auto;
 }

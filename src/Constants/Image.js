@@ -18,13 +18,14 @@ import foguangBKG from '../assets/projects/foguang/bkg.jpg'
 import fgflow from '../assets/projects/foguang/MockupFlow.png'
 import fgIA from '../assets/projects/foguang/foguangIA.png'
 import fgmain from '../assets/projects/foguang/main.png'
-import fgphoto from '../assets/projects/foguang/photo.JPG'
+import fgphoto from '../assets/projects/foguang/photo1.jpg'
 import fgp1 from '../assets/projects/foguang/p1.png'
 import fgdp from '../assets/projects/foguang/designP.png'
 import fgvid from '../assets/projects/foguang/vid.mp4'
 import fgdd from '../assets/projects/foguang/dd.png'
 import fgaudio from '../assets/projects/foguang/audioG.jpg'
-
+import fgflow2 from '../assets/projects/foguang/ROUTE.png'
+import fgui from '../assets/projects/foguang/demo_ui_2.mp4'
 
 import profile from '../assets/img/profile_new.png'
 
@@ -43,7 +44,7 @@ export {
   fgmain,
   fgphoto,
   fgp1,
-  fgdp,fgvid,fgdd,fgaudio,
+  fgdp,fgvid,fgdd,fgaudio,fgflow2,fgui,
   gameBKG,
   foguangBKG,
   fgflow,
