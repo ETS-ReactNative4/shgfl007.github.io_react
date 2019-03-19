@@ -14,11 +14,11 @@ export default class Persona extends Component {
         </div>
       </div>
       <p>{persona.description}</p>
-      <h4>Statues:</h4>
+      <h4 className='section-title'>Statues:</h4>
       {persona.statues && <ul>{this.getStatue(persona.statues)}</ul>}
-      <h4>Problems:</h4>
+      <h4 className='section-title'>Problems:</h4>
       {persona.needs && <ul>{this.getNeeds(persona.needs)}</ul>}
-      <h4>Current Solutions:</h4>
+      <h4 className='section-title'>Current Solutions:</h4>
       {persona.sol && <ul>{this.getSolutions(persona.sol)}</ul>}
 
     </div>

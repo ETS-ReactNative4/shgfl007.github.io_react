@@ -79,7 +79,7 @@ export default class Foguang extends Component {
         containerId: 'scroll-container'
       }));
   }
-  
+
   componentWillUnmount() {
     Events.scrollEvent.remove('begin');
     Events.scrollEvent.remove('end');
@@ -215,8 +215,8 @@ export default class Foguang extends Component {
               <h3 className='section-title'>The Flow (First Try)</h3>
                 <div className='split-section'>
                   <div className='split-left'><img className='foguang-photo' src={fgflow} /></div>
-                  <div className='split-right'>
-                    <p>We decided to create a touring guide for the temple. Because we had 2 types of personas, one was professionals and the other was
+                  <div className='split-right' style={{marginTop:'0'}}>
+                    <p className='first-section-par' >We decided to create a touring guide for the temple. Because we had 2 types of personas, one was professionals and the other was
                     hobbyist that loved Chinese architectures, we decided to provide the audiences with 2 different routes. One was curated route for hobbyists. This route would
                     be designed to go through everything about the Foguang Temple and guide the audience to go to different halls one by one. The other one was self-guided tour.
                     This would give the seasoned audiences freedom to choose where to go.
@@ -270,21 +270,21 @@ export default class Foguang extends Component {
 
             <h3 className='section-title'>The Flow (Touring Route)</h3>
                 <img className='project-img' src={fgflow2} />
-                  <p className='list-title'>We decided to create a touring guide for the temple. We proposed the following flow:</p>
-                  <ul>
-                    <li>1. The visitor starts the tour at the front gate by picking up a tablet with the app installed/loaded</li>
-                    <li>2. The visitor click on "start" to start the tour</li>
-                    <li>3. While looking at the whole temple from the front gate, the visitor listens to the brief history of the temple and Buddhism in China</li>
-                    <li>4. Following the guide, the visitor moves to the center of the first courtyard, facing the Tang funerary pillar</li>
-                    <li>5. The guide auto plays the 2nd chapter: history of the Society for the study of Chinese Architecture and how Liang SiCheng discovered the Foguang Temple as one of the two Tang temples left in China</li>
-                    <li>6. The visitor follows the lead of the guide, goes to the Manjisri hall and takes a look at the funerary pillar. Then the visitor goes up stairs to visit the Great East Hall.</li>
-                    <li>7. The visitor sees the Great East Hall in front of her. She takes a look at the app and saw the picture is matching what she sees.</li>
-                    <li>8. She clicks on one of the hotspots on the picture, and listen to the story associates to the hotspot</li>
-                    <li>9. She walk around the outside of the East Hall, looks at the ceilling structure and sees the detailed blue print of the parts in the app</li>
-                    <li>10. She enters the Great East Hall, walks around with the tablet and sees the 3d model of the statues that are behind the bars</li>
-                    <li>11. She finds a hotspot that shows there's something on the wooden structure of the ceilling. She clicks on that and realizes there is an ancient wall painting. She feels surprized and excited.</li>
-                    <li>12. She checks all the hotspots inside the Great East Hall, and finds that there are more statues than she thought before coming to the site.</li>
-                    <li>13. She goes back the front gate, returns the tablet and ready to leave. She takes the last look at the temple, feels excited and satisfied. </li>
+                  <p className='list-title first-section-par'>We decided to create a touring guide for the temple. We proposed the following flow:</p>
+                  <ul className='numbered-list'>
+                    <li>The visitor starts the tour at the front gate by picking up a tablet with the app installed/loaded</li>
+                    <li>The visitor click on "start" to start the tour</li>
+                    <li>While looking at the whole temple from the front gate, the visitor listens to the brief history of the temple and Buddhism in China</li>
+                    <li>Following the guide, the visitor moves to the center of the first courtyard, facing the Tang funerary pillar</li>
+                    <li>The guide auto plays the 2nd chapter: history of the Society for the study of Chinese Architecture and how Liang SiCheng discovered the Foguang Temple as one of the two Tang temples left in China</li>
+                    <li>The visitor follows the lead of the guide, goes to the Manjisri hall and takes a look at the funerary pillar. Then the visitor goes up stairs to visit the Great East Hall.</li>
+                    <li>The visitor sees the Great East Hall in front of her. She takes a look at the app and saw the picture is matching what she sees.</li>
+                    <li>She clicks on one of the hotspots on the picture, and listen to the story associates to the hotspot</li>
+                    <li>She walk around the outside of the East Hall, looks at the ceilling structure and sees the detailed blue print of the parts in the app</li>
+                    <li>She enters the Great East Hall, walks around with the tablet and sees the 3d model of the statues that are behind the bars</li>
+                    <li>She finds a hotspot that shows there's something on the wooden structure of the ceilling. She clicks on that and realizes there is an ancient wall painting. She feels surprized and excited.</li>
+                    <li>She checks all the hotspots inside the Great East Hall, and finds that there are more statues than she thought before coming to the site.</li>
+                    <li>She goes back the front gate, returns the tablet and ready to leave. She takes the last look at the temple, feels excited and satisfied. </li>
                   </ul>
 
 

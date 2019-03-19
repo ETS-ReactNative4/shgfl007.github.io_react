@@ -1,5 +1,7 @@
 .project-header-section{
   margin-top: 40px;
+  max-width: 1000px;
+  margin: 40px auto;
 }
 .hero-img{
   height: 600px;
@@ -63,7 +65,7 @@
   }
   .persona-card{
     min-width: 280px;
-    width: 280px;
+    width: 290px;
     min-height: 300px;
     text-align: center;
     padding: 24px;
@@ -130,4 +132,12 @@ ul{
 
 .project-section{
   margin: 88px auto;
+}
+
+li{
+    margin: 8px 0;
+}
+
+.numbered-list{
+  list-style: decimal;
 }
