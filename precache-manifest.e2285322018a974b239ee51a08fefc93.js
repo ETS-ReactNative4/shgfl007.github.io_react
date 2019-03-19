@@ -4,16 +4,16 @@ self.__precacheManifest = [
     "url": "/react-portfolio/static/media/rulebkg.73de79ba.jpg"
   },
   {
-    "revision": "fb435537125e33da37b8",
-    "url": "/react-portfolio/static/css/main.c5c8a2c9.chunk.css"
+    "revision": "755eb003ae8d59c67e8f",
+    "url": "/react-portfolio/static/css/main.08dd8628.chunk.css"
   },
   {
-    "revision": "6878b95e5ab9c8b63bea",
-    "url": "/react-portfolio/static/js/1.6878b95e.chunk.js"
+    "revision": "94872cf7e81768d148a3",
+    "url": "/react-portfolio/static/js/runtime~main.f974a8eb.js"
   },
   {
-    "revision": "f8926043fa4459ec0101",
-    "url": "/react-portfolio/static/js/runtime~main.f8926043.js"
+    "revision": "8fdeade051e6c1eb2739",
+    "url": "/react-portfolio/static/js/2.a89d0589.chunk.js"
   },
   {
     "revision": "39765ff388e51841878e60cc12ac8e4a",
@@ -64,8 +64,8 @@ self.__precacheManifest = [
     "url": "/react-portfolio/static/media/fairtrade.ddd660d8.png"
   },
   {
-    "revision": "fb435537125e33da37b8",
-    "url": "/react-portfolio/static/js/main.fb435537.chunk.js"
+    "revision": "755eb003ae8d59c67e8f",
+    "url": "/react-portfolio/static/js/main.33f5d817.chunk.js"
   },
   {
     "revision": "f657fe0c1a4d50b690f2ab8b334fb48c",
@@ -124,7 +124,7 @@ self.__precacheManifest = [
     "url": "/react-portfolio/static/media/logo.5d5d9eef.svg"
   },
   {
-    "revision": "abb5e8b4aa0ed1618d180a5e7805bd5d",
+    "revision": "3c254e9d965642e4faf2e7701d9d0e3b",
     "url": "/react-portfolio/index.html"
   }
 ];
