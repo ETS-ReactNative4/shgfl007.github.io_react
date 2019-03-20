@@ -230,7 +230,8 @@ export default class Foguang extends Component {
 
 
             <h3 className='section-title'>Information Architecture</h3>
-            <img className='project-img' src={fgIA}/>
+            <div className='project-image'><img className='project-img' src={fgIA}/></div>
+
             <p className='list-title'>We worked closely with our client to narraw down the storyline. </p>
               <ul>
                 <li>One side of the story takes the temple as the main character and takes the audiences through its life.</li>
@@ -269,7 +270,7 @@ export default class Foguang extends Component {
             spend more time on looking at the subject instead of the reading a bunch of text.</p>
 
             <h3 className='section-title'>The Flow (Touring Route)</h3>
-                <img className='project-img' src={fgflow2} />
+              <div className='project-image'><img className='project-img' src={fgflow2} /></div>
                   <p className='list-title first-section-par'>We decided to create a touring guide for the temple. We proposed the following flow:</p>
                   <ul className='numbered-list'>
                     <li>The visitor starts the tour at the front gate by picking up a tablet with the app installed/loaded</li>
@@ -308,15 +309,17 @@ export default class Foguang extends Component {
             goggles and would have enough time to go through everything.</p>
 
           <h3 className='section-title'>Wireframe</h3>
-            <div className='split-section'>
-              <div className='split-left'><video src={fgui} autoPlay muted loop width='100%'/></div>
-              <div className='split-right'>
-                <iframe className='fg-wireframe' width="770" height="200" src="https://xd.adobe.com/embed/3eb3a69a-81db-4720-69f7-8dab3341858f-4882/" frameBorder="0" allowFullScreen></iframe>
-              </div>
-            </div>
             <p>We created 2 seperate wireframes. One is the linear storytelling chapters, the other is the 360 experience part. </p>
+            <div className='project-image'>
+              <video src={fgui} autoPlay muted loop width='100%'/>
+            </div>
+            <h3>Wireframe for the linear storyline</h3>
             <p>For the linear storytelling part, we decided to go with a timeline since it suits the story the best. It was risky to create a horizontal scroll experience since there weren't many
               apps/webpages that used horizontal scroll. However we have the timeline extended to the right beyond the edge to indicate that there are more contents on the right.</p>
+            <div className='project-image'>
+              <iframe className='fg-wireframe' width="1000" height="500" src="https://xd.adobe.com/embed/3eb3a69a-81db-4720-69f7-8dab3341858f-4882/" frameBorder="0" allowFullScreen></iframe>
+            </div>
+            <h3>Wireframe for 360 experience</h3>
             <p>The 360 part was designed to be a full screen experience. We made cards to popup if the content includes multimedia and lots of text. Some cards are just quotes from Liang SiCheng or
               other famous people, so we had them as cards in the scene as 3d objects.</p>
           </div>

@@ -42,23 +42,45 @@ export default class Briovr extends Component {
   render() {
     return (
       <div>
-        <div className='header-home animated project-header-section' >
+        <div className='project-content header-home animated project-header-section' >
             <h1 className='title'>Making Editing 3D Scenes Easier</h1>
             <hr/>
-            <h2>BRIOVR</h2>
-            <p>Solve the problem of placing objects in 3D space using 2D editor</p>
+            <h2>Placement Indicator for BRIOVR </h2>
             <div className='hero-img' style={{backgroundImage:`url(${brioBKG})`}}></div>
-          </div>
+        </div>
           <div className='project-content animated'>
-            <p>BRIOVR is an online platform for people with less 3d experiences
-              and no coding experiences to create quick and short 3D interactive
-              experience. We found that it’s hard to tell where the object is
-              when editing in 3D space in a 2D window. This project was to help
-              users visualize where they are moving/placing objects while
-              editing in BRIOVR builder.</p>
+            <div className='project-section'>
+              <h2>The Project</h2>
+              <hr/>
+              <p>BRIOVR is an online platform for people with less 3d experiences
+                and no coding experiences to create quick and short 3D interactive
+                experience. We found that it’s hard to tell where the object is
+                when editing in 3D space in a 2D window. This project was to help
+                users visualize where they are moving/placing objects while
+                editing in BRIOVR builder.</p>
+            </div>
 
-              <div className='section-block'>
-                <h2>Challenges</h2>
+            <div className='project-section'>
+              <h2>Team and Roles</h2>
+              <hr />
+                <p className='list-title'>For this project, I’m working as the UI/UX designer.
+                  I was working with a developer to build this feature for BRIOVR. My work can be summarized as:
+                </p>
+                <ul>
+                  <li>Define challenges</li>
+                  <li>User research</li>
+                  <li>Wireframe, prototype</li>
+                  <li>User Test</li>
+                </ul>
+              </div>
+
+              <div className='project-section'>
+                <h2>Discovery</h2>
+                <hr/>
+                <h3>Challenges</h3>
+                <p className='list-title'>We found that the users were having problems moving 3d objects around because they couldn't
+                  figure out where the object was even though we had the grid system to aid them. 
+                </p>
                 <ul>
                   <li>Show 3d space inside the 2d editor</li>
                   <li>Responsive to object's movements and size changes in realtime</li>
@@ -84,10 +106,6 @@ export default class Briovr extends Component {
                   software. She is curious about the new AR/VR trend and wants to showcase her toy designs especially in AR.</p>
                 </div>
               </div>
-
-              <h2>Team and Roles</h2>
-              <p>For this project, I’m working as the UI/UX designer.
-                I was working with a developer to build this feature for BRIOVR.</p>
 
 
 
