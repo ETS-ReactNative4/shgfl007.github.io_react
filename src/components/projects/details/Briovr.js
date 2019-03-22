@@ -188,7 +188,10 @@ export default class Briovr extends Component {
           </ul>
 
           <h3 className='section-title'>The Prototype</h3>
-          <p>I've made some quick mockups in Adobe XD, but the indicator is supposed to be used in 3D space. 2D mockups won't be good enough to represent how the indicator will look and function in a 3D space. So I built a quick prototype inside Brio since it was the fastest way I can think of to make a prototype in 3D without coding.
+          <div className='project-image'>
+            <iframe src="https://view.briovr.com/5b346383-9811-4f1f-a1f7-60e9271094bb?minimal=true" width="1000" height="360" frameBorder="0" allowFullscreen="allowfullscreen"/>
+          </div>
+          <p className='first-section-par'>I've made some quick mockups in Adobe XD, but the indicator is supposed to be used in 3D space. 2D mockups won't be good enough to represent how the indicator will look and function in a 3D space. So I built a quick prototype inside Brio since it was the fastest way I can think of to make a prototype in 3D without coding.
           </p>
           <p className='list-title'>I included following aspects in the mockup:</p>
           <ul>
@@ -197,7 +200,7 @@ export default class Briovr extends Component {
             <li>Objects that were rotated to different angels</li>
           </ul>
 
-          <p>From the mockup, I added 2 more rules based on the tests and discoveries:</p>
+          <p className='list-title'>From the mockup, I added 2 more rules based on the tests and discoveries:</p>
           <ul>
             <li>The bottom part of the indicator has a minium and a maxium size, so it won't get lost when the model is either too small or too big</li>
             <li>The indicator is based from the center of the object's bounding box instead of pivit points</li>
@@ -205,7 +208,7 @@ export default class Briovr extends Component {
           <p>
             <a href='https://view.briovr.com/5b346383-9811-4f1f-a1f7-60e9271094bb' target='_blank'>Here's the link to the prototype</a>
           </p>
-          <iframe src="https://view.briovr.com/5b346383-9811-4f1f-a1f7-60e9271094bb?minium=true" width="640" height="360" frameborder="0" allowfullscreen="allowfullscreen"/>
+
           <div className='split-section'>
             <div className='split-left'><video className='brio-animation' src={brioAnim} autoPlay="autoPlay" loop="loop" muted="muted"/></div>
             <div className='split-right'>
@@ -246,8 +249,9 @@ export default class Briovr extends Component {
         <div className='project-section'>
 
           <h2>In App Result & Future Developments</h2>
+          <hr />
           <div className='brio-fin-video'><video className='brio-animation' src={brioFin} autoPlay="autoPlay" loop="loop" muted="muted"/></div>
-          <p>The final result of the indicator helped to locate objects within 3D space. From our analytics, I found that it surprisingly helped a lot on the waypoints other than 3D objects. For future developments, I would love to include:
+          <p className='list-title'>The final result of the indicator helped to locate objects within 3D space. From our analytics, I found that it surprisingly helped a lot on the waypoints other than 3D objects. For future developments, I would love to include:
           </p>
           <ul>
             <li>Add back the animation to make Brio more fun to use</li>
@@ -255,7 +259,7 @@ export default class Briovr extends Component {
             <li>Add inspector support when user drags model from the Brio library or Google Poly library and from their computer</li>
           </ul>
 
-          <h2>Social Proof</h2>
+          <h3 className='section-title'>Social Proof</h3>
           <div className='project-image'>
             <div style={tweet}></div>
           </div>
@@ -266,12 +270,14 @@ export default class Briovr extends Component {
         <div className='project-section'>
           <h2>Takeaways</h2>
           <hr/>
-          <p>I learned a lot from designing and developing this feature:</p>
-          <ul>
-            <li>Always talk to the team! They are all smart people, and I can always learn from them. Plus, fresh eyes are always helpful!</li>
-            <li>Never be afraid to try new things! I was going to use After Effects for the animation and prototype, but ended up with using Brio, which saved me time and efforts and worked well for me and the developer.</li>
-            <li>Sometimes, it's fine to change the workflow! We tested the feature as we developing it. This wasn't the regular workflow, but for this feature it actually shorten the development circle!</li>
-          </ul>
+          <h3>Always talk to the team, discuss with them and listen to them</h3>
+          <p className='fist-section-par'>Always talk to the team! They are all smart people, and I can always learn from them. Plus, fresh eyes are always helpful!</p>
+
+          <h3>Never be afraid to try new things</h3>
+          <p className='fist-section-par'>Especially working with new technology, I need to keep my mind open and be prepared to try, learn, adapt to new tools, concepts and workflows. This helps with the process and improves the result.</p>
+
+          <h3>Work smart</h3>
+          <p className='first-section-par'>Sometimes, it's cool to break the rules and change the workflow. We tested the feature as we developing it. This wasn't the regular workflow, but for this feature it actually shorten the development circle.</p>
 
         </div>
       </div>
