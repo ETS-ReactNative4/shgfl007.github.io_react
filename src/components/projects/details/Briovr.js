@@ -14,16 +14,8 @@ import {
 } from '../../../Constants/Image'
 
 import Persona from './components/persona'
+import Takeaways from './components/Takeaways'
 
-
-const ref = {
-  width: '100%',
-  height: '265px',
-  margin: 'auto',
-  backgroundSize: 'contain',
-  backgroundRepeat: 'no-repeat',
-  backgroundImage: `url(${brioref})`
-}
 
 const design = {
   width: '100%',
@@ -54,7 +46,7 @@ const detail = {
 
 const personas = [
   {name:'Tony', age:'34', img: briop1,
-    description:'Tony is an interaction designer that just start to get into the space of AR and VR. Tony ',
+    description:'Tony is an interaction designer that just start to get into the space of AR and VR. Tony tried to learn Unity and Unreal but realized that learning the engines took too much time and efforts. Tony wants something he can quickly create prototypes for the interactive experiences he\'s creating.',
     needs: ['Can‘t see the statues inside', 'Can\'t see the ceilling strucutures clearly', 'Can\'t see the wall painting', 'Won\'t be able to go up and exam the structure of the East Hall'],
     statues:['College student majors in architecture', 'Heared of the temple from professors', 'Brings camera to the site to take as many photos as she can'],
     sol:['Research online - photo & story', 'Ask professors - architecture structure & formation', 'Research in school library - photo & historical background']
@@ -65,6 +57,12 @@ const personas = [
     statues:['Retired, helps taking care of grandchild', 'Hobbyist of Chinese architecture', 'Brings grandchild here to visit and learn about the temple'],
     sol:['Uses own knowledge', 'Tells the story in his own mouth']
   }
+]
+
+const takeaways = [
+  {title:'Always talk to the team, discuss with them and listen to them', content:'Always talk to the team! They are all smart people, and I can always learn from them. Plus, fresh eyes are always helpful!'},
+  {title:'Never be afraid to try new things', content:'Especially working with new technology, I need to keep my mind open and be prepared to try, learn, adapt to new tools, concepts and workflows. This helps with the process and improves the result.'},
+  {title:'Work smart', content:'Sometimes, it\'s cool to break the rules and change the workflow. We tested the feature as we developing it. This wasn\'t the regular workflow, but for this feature it actually shorten the development circle.'}
 ]
 
 export default class Briovr extends Component {
@@ -83,13 +81,13 @@ export default class Briovr extends Component {
         <div className='project-section'>
           <h2>The Project</h2>
           <hr/>
-          <p>BRIOVR is an online platform for people with less 3d experiences and no coding experiences to create quick and short 3D interactive experience. We found that it’s hard to tell where the object is when editing in 3D space in a 2D window. This project was to help users visualize where they are moving/placing objects while editing in BRIOVR builder.</p>
+          <p className='first-section-par'>BRIOVR is an online platform for people with less 3d experiences and no coding experiences to create quick and short 3D interactive experience. We found that it’s hard to tell where the object is when editing in 3D space in a 2D window. This project was to help users visualize where they are moving/placing objects while editing in BRIOVR builder.</p>
         </div>
 
         <div className='project-section'>
           <h2>Team and Roles</h2>
           <hr/>
-          <p className='list-title'>For this project, I’m working as the UI/UX designer. I was working with a developer to build this feature for BRIOVR. My work can be summarized as:
+          <p className='list-title first-section-par'>For this project, I’m working as the UI/UX designer. I was working with a developer to build this feature for BRIOVR. My work can be summarized as:
           </p>
           <ul>
             <li>Define challenges</li>
@@ -103,7 +101,7 @@ export default class Briovr extends Component {
           <h2>Discovery</h2>
           <hr/>
           <h3 className='section-title'>Challenges</h3>
-          <p className='list-title'>We found that the users were having problems moving 3d objects around because they couldn't figure out where the object was even though we had the grid system to aid them.
+          <p className='list-title first-section-par'>We found that the users were having problems moving 3d objects around because they couldn't figure out where the object was even though we had the grid system to aid them.
           </p>
           <ul>
             <li>Show 3d space inside the 2d editor</li>
@@ -270,15 +268,7 @@ export default class Briovr extends Component {
         <div className='project-section'>
           <h2>Takeaways</h2>
           <hr/>
-          <h3>Always talk to the team, discuss with them and listen to them</h3>
-          <p className='fist-section-par'>Always talk to the team! They are all smart people, and I can always learn from them. Plus, fresh eyes are always helpful!</p>
-
-          <h3>Never be afraid to try new things</h3>
-          <p className='fist-section-par'>Especially working with new technology, I need to keep my mind open and be prepared to try, learn, adapt to new tools, concepts and workflows. This helps with the process and improves the result.</p>
-
-          <h3>Work smart</h3>
-          <p className='first-section-par'>Sometimes, it's cool to break the rules and change the workflow. We tested the feature as we developing it. This wasn't the regular workflow, but for this feature it actually shorten the development circle.</p>
-
+          <Takeaways entries={takeaways} />
         </div>
       </div>
     </div>);

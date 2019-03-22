@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import {foguangBKG, fgflow, fgIA, briop1, briop2, fgmain,fgphoto,fgp1, fgdp, fgvid, fgdd,fgaudio,fgflow2,fgui} from '../../../Constants/Image'
 import Persona from './components/persona'
 import { Link, DirectLink, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
+import Takeaways from './components/Takeaways'
 
 const personas = [
   {name:'Tina', age:'20', img: briop2,
@@ -12,7 +13,7 @@ const personas = [
   },
   {name:'Ru Zhi', age: '65', img: briop1,
     description:'Ru Zhi comes to the temple with his grandson. He wants to show his grandchild the cultural heritage so he could learn about the history and appreciate the culture.',
-    needs: ['Cultural background (temple & buddahism)', 'Why FoGuang is important', 'Something fun for kids'],
+    needs: ['Hard to gather all background stories of Fo Guang Temple (history and religious)', 'Hard to find authority source of information about the temple', 'Hard to make the experience fun for the child'],
     statues:['Retired, helps taking care of grandchild', 'Hobbyist of Chinese architecture', 'Brings grandchild here to visit and learn about the temple'],
     sol:['Uses own knowledge', 'Tells the story in his own mouth']
   }
@@ -26,6 +27,14 @@ const flow = {
   backgroundRepeat: 'no-repeat',
   backgroundImage: `url(${fgflow})`
 }
+
+const takeaways = [
+  {title:'Know the Audience & Location', content:'This project involves physical setups. Learn the location well to tailor the solution that is suitable for the location is important.'},
+  {title:'Choose the Tech to Serve the Story & Experience', content:'Technology is just tools. We should never design something for the technology because it\'s cool. We pickup the right technology for the solution we proposed.'},
+  {title:'Learn from the Client & Work with Them', content:'Our client knows best in their fields. We brought our client into our design process. We showed our client our process on bi-weekly meetings and took their advice.'},
+  {title:'Past Designs Are Always Good Examples to Learn From', content:'Designs in the past are not out-dated. They are like elderly people - always have a good story to tell. When doing "new" designs, there are always things to learn from them.'}
+]
+
 
 export default class Foguang extends Component {
   constructor(props) {
@@ -367,20 +376,8 @@ export default class Foguang extends Component {
             <div className='project-section'>
             <h2>Takeaways</h2>
             <hr/>
-            <div>
-              <h3 className='section-title'>Know the Audience & Location</h3>
-              <p className='first-section-par'>This project involves physical setups. Learn the location well to tailor the solution that is suitable for the location is important.</p>
+            <Takeaways entries={takeaways} />
 
-              <h3 className='section-title'>Choose the Tech to Serve the Story & Experience</h3>
-              <p className='first-section-par'>Technology is just tools. We should never design something for the technology because it's cool. We pickup the right technology for the solution we proposed.</p>
-
-              <h3 className='section-title'>Learn from the Client & Work with Them</h3>
-              <p className='first-section-par'>Our client knows best in their fields. We brought our client into our design process. We showed our client our process on bi-weekly meetings and took their advice.</p>
-
-              <h3 className='section-title'>Past designs are always good examples to learn from</h3>
-              <p className='first-section-par'>Designs in the past are not out-dated. They are like elderly people - always have a good story to tell. When doing "new" designs, there are always things to learn from them.</p>
-
-            </div>
           </div>
 
 
