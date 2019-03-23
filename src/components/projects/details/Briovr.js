@@ -47,15 +47,15 @@ const detail = {
 const personas = [
   {name:'Tony', age:'34', img: briop1,
     description:'Tony is an interaction designer that just start to get into the space of AR and VR. Tony tried to learn Unity and Unreal but realized that learning the engines took too much time and efforts. Tony wants something he can quickly create prototypes for the interactive experiences he\'s creating.',
-    needs: ['Can‘t see the statues inside', 'Can\'t see the ceilling strucutures clearly', 'Can\'t see the wall painting', 'Won\'t be able to go up and exam the structure of the East Hall'],
-    statues:['College student majors in architecture', 'Heared of the temple from professors', 'Brings camera to the site to take as many photos as she can'],
-    sol:['Research online - photo & story', 'Ask professors - architecture structure & formation', 'Research in school library - photo & historical background']
+    needs: ['Don\'t have time for diving into game engines to create prototypes', 'Can\'t build interactive prototypes in a short time without coding', 'Hard to visualize, create, build and deploy to AR/VR devices'],
+    statues:['Veteran interaction designer with previous experiences in mobile and web design', 'Knows little about game engines'],
+    sol:['Depend on developers to create something quick to test out', 'Use VR apps to place object then pass to devs to create interactions', 'Use other tools like storyboard and paper prototypes to simulate basic interactions']
   },
   {name:'Amy', age: '20', img: briop2,
-    description:'Amy is a student that studying art in university. She\'s really intersted in the new technology of AR and VR',
-    needs: ['Cultural background (temple & buddahism)', 'Why FoGuang is important', 'Something fun for kids'],
-    statues:['Retired, helps taking care of grandchild', 'Hobbyist of Chinese architecture', 'Brings grandchild here to visit and learn about the temple'],
-    sol:['Uses own knowledge', 'Tells the story in his own mouth']
+    description:'Amy is a student that studying art in university. She\'s really intersted in the new technology of AR and VR and she\'s taking classes that uses Unity as the main tool kit. She has team assignments to create 3D experiences, when talking to the team, she wants something to present her thoughts.',
+    needs: ['Hard to make something quick and direct in Unity that she could present to the team', 'Hard to collaborate in Unity'],
+    statues:['Student, has time to learn and try different tools', 'Has to use Unity for class', 'Sometimes wants to create cute and short interactive experiences to show friends for fun'],
+    sol:['Spends more time to learn Unity', 'Use Unity collaborate for team projects', 'Friends needs to download stuff each time if she wants to show off something']
   }
 ]
 
@@ -112,6 +112,8 @@ export default class Briovr extends Component {
         </div>
 
         <h3 className='section-title'>Personas</h3>
+        <p className='first-section-par'>I used the persona we had for BRIO as a full prototyping tool for designers and students. We know that our users are interested in building interactive experiences and share or collaborate with others. We also know that
+        they are familiar with professional tools like Unity. </p>
         <div className='persona-section'>
           <Persona personas={personas} />
         </div>
@@ -141,20 +143,20 @@ export default class Briovr extends Component {
             <div className='split-left'><img src={brios1}/></div>
             <div className='split-right'>
               <h3 className='section-title'>The Sketch</h3>
-              <p>Based on the discoveries, I first did some sketches before going deeper into the design.</p>
+              <p className='first-section-par'>Based on the discoveries, I first did some sketches before going deeper into the design.</p>
               <p>I used simple elements to test out my assumptions: a cube, the grid and the indicator. The sketches includes something similar to real world shadows that would be affected by the shape of the objects, also something more abstract (a ring that represents the rough size of the object).
               </p>
             </div>
           </div>
 
           <h3 className='section-title'>The Mockup</h3>
-          <p>I took some of the sketches and put it in Adobe XD on top of screenshots of the Brio builder. The elements are still simple: a cube, the grid with a background colour and the indicator.
+          <p className='first-section-par'>I took some of the sketches and put it in Adobe XD on top of screenshots of the Brio builder. The elements are still simple: a cube, the grid with a background colour and the indicator.
           </p>
           <p>In this phase, I was focusing on the colour and shape of the variety indicators. It showed that what colour would be more visible with different background colours.
           </p>
           <p>After building the mockup, I showed it to the team that were working on other features. Before getting into it, I explain what was expected for the indicator. Here's the list I've mentioned to the team:
           </p>
-          <p>The indicator should</p>
+          <p className='list-title'>The indicator should</p>
           <ul>
             <li>Show where the object is on the x-z plane (how far from the edit camera)</li>
             <li>Be visible and self explainary</li>
@@ -173,12 +175,12 @@ export default class Briovr extends Component {
             <div className='split-left'><img src={briodesign2}/></div>
             <div className='split-right'>
               <h3 className='section-title'>The Height Ruler</h3>
-              <p>It was easier to design the height indicator after setting the base style and colour from the base. The height indicator was refering to rulers and and grid system we were using in Brio. The distance between each dot is the same distance between each 'x' on the grid. In this way, users wouldn't need to think about whether the distances were the same.</p>
+              <p className='first-section-par'>It was easier to design the height indicator after setting the base style and colour from the base. The height indicator was refering to rulers and and grid system we were using in Brio. The distance between each dot is the same distance between each 'x' on the grid. In this way, users wouldn't need to think about whether the distances were the same.</p>
             </div>
           </div>
 
           <h3 className='section-title'>The Rules</h3>
-          <p className='list-title'>Other than designing the actual appearance of the indicator, I also set the rules of the indicator. Here are the rules:</p>
+          <p className='list-title first-section-par'>Other than designing the actual appearance of the indicator, I also set the rules of the indicator. Here are the rules:</p>
           <ul>
             <li>When - The indicator appears when a object is being manipulated (move, scale, rotate)</li>
             <li>Where - The base should always be on the grid. The other side of the indicator should be in from the ceter of the object.</li>
@@ -208,10 +210,10 @@ export default class Briovr extends Component {
           </p>
 
           <div className='split-section'>
-            <div className='split-left'><video className='brio-animation' src={brioAnim} autoPlay="autoPlay" loop="loop" muted="muted"/></div>
+            <div className='split-left'><video className='brio-animation section-title' src={brioAnim} autoPlay='autoPlay' loop='loop' muted='muted'/></div>
             <div className='split-right'>
-              <h4>Give It A Bit Characteristics</h4>
-              <p>To make the indicator more responsive and obvious, I added some animation to make it react more to user's interactions. For the height indicator, it pops up a sphere when the object moves up (or down underneath the grid) 0.5 meters (Brio unit). And a sphere will disapear when it reaches the base on both ways. The motion brought the indicator a bit more characteristics but not too much.
+              <h3 className='section-title'>Give It A Bit Characteristics</h3>
+              <p className='first-section-par'>To make the indicator more responsive and obvious, I added some animation to make it react more to user's interactions. For the height indicator, it pops up a sphere when the object moves up (or down underneath the grid) 0.5 meters (Brio unit). And a sphere will disapear when it reaches the base on both ways. The motion brought the indicator a bit more characteristics but not too much.
               </p>
             </div>
 
@@ -233,7 +235,7 @@ export default class Briovr extends Component {
           </ul>
 
           <h3 className='section-title'>Developing & Testing</h3>
-          <p className='first-section-par'>Just like the mockup, we used objects with different shape and sizes and tested with different people in-house. From the result, we changed following things:</p>
+          <p className='first-section-par list-title'>Just like the mockup, we used objects with different shape and sizes and tested with different people in-house. From the result, we changed following things:</p>
           <ul>
             <li>The maxium size of the bottom indicator</li>
             <li>The minium size of the bottom indicator</li>
@@ -246,7 +248,7 @@ export default class Briovr extends Component {
 
         <div className='project-section'>
 
-          <h2>In App Result & Future Developments</h2>
+          <h2>Result & Future Developments</h2>
           <hr />
           <div className='brio-fin-video'><video className='brio-animation' src={brioFin} autoPlay="autoPlay" loop="loop" muted="muted"/></div>
           <p className='list-title'>The final result of the indicator helped to locate objects within 3D space. From our analytics, I found that it surprisingly helped a lot on the waypoints other than 3D objects. For future developments, I would love to include:
