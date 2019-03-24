@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/react-portfolio/static/media/rulebkg.73de79ba.jpg"
   },
   {
-    "revision": "47f993e653db3cd22df0",
-    "url": "/react-portfolio/static/css/main.08dd8628.chunk.css"
+    "revision": "efef66ab880fc133d696",
+    "url": "/react-portfolio/static/css/main.08e82346.chunk.css"
   },
   {
     "revision": "94872cf7e81768d148a3",
@@ -64,8 +64,8 @@ self.__precacheManifest = [
     "url": "/react-portfolio/static/media/fairtrade.ddd660d8.png"
   },
   {
-    "revision": "47f993e653db3cd22df0",
-    "url": "/react-portfolio/static/js/main.412c8fec.chunk.js"
+    "revision": "efef66ab880fc133d696",
+    "url": "/react-portfolio/static/js/main.13e40009.chunk.js"
   },
   {
     "revision": "f657fe0c1a4d50b690f2ab8b334fb48c",
@@ -124,7 +124,7 @@ self.__precacheManifest = [
     "url": "/react-portfolio/static/media/logo.5d5d9eef.svg"
   },
   {
-    "revision": "fe9778c6646ce012ddc31d1165b8b9e4",
+    "revision": "9e70d745fdd31a47de5aed4486ba12a5",
     "url": "/react-portfolio/index.html"
   }
 ];
