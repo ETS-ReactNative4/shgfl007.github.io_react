@@ -8,13 +8,15 @@ export const ProjectList = [
     caption:'Bridging the disconnection between newcomers and kind hearted locals',
     img: ftBKG, link:'/fairtrade'},
 
-  {title: 'Paper Prototype for Quick Play Test', category:'Case Study, UX Design, Game Design, Paper Prototyping', app:'Break A Leg',
-    caption:'A party game that brings fun to all the players',
-    img: gameBKG, link:'/break-a-leg'},
+
 
   {title: 'Foguang Temple Touring Guide', category:'Case Study, UX Design, Development', app:'Foguang Temple',
     caption:'Telling the story behind the temple with a thunsand year history and the visitors',
-    img: foguangBKG, link:'/foguang-temple'}
+    img: foguangBKG, link:'/foguang-temple'},
+
+  {title: 'Paper Prototype for Quick Play Test', category:'Case Study, UX Design, Game Design, Paper Prototyping', app:'Break A Leg',
+    caption:'A party game that brings fun to all the players',
+    img: gameBKG, link:'/break-a-leg'}
 
 
 ]

@@ -60,9 +60,9 @@ const personas = [
 ]
 
 const takeaways = [
-  {title:'Always talk to the team, discuss with them and listen to them', content:'Always talk to the team! They are all smart people, and I can always learn from them. Plus, fresh eyes are always helpful!'},
-  {title:'Never be afraid to try new things', content:'Especially working with new technology, I need to keep my mind open and be prepared to try, learn, adapt to new tools, concepts and workflows. This helps with the process and improves the result.'},
-  {title:'Work smart', content:'Sometimes, it\'s cool to break the rules and change the workflow. We tested the feature as we developing it. This wasn\'t the regular workflow, but for this feature it actually shorten the development circle.'}
+  {title:'Always Talk to the Team, discuss with them and listen to them', content:'Always talk to the team! They are all smart people, and I can always learn from them. Plus, fresh eyes are always helpful!'},
+  {title:'Never be Afraid to Try New Things', content:'Especially working with new technology, I need to keep my mind open and be prepared to try, learn, adapt to new tools, concepts and workflows. This helps with the process and improves the result.'},
+  {title:'Work Smart', content:'Sometimes, it\'s cool to break the rules and change the workflow. We tested the feature as we developing it. This wasn\'t the regular workflow, but for this feature it actually shorten the development circle.'}
 ]
 
 export default class Briovr extends Component {
