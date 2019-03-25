@@ -12,6 +12,10 @@ import brioFin from '../assets/projects/briovr/indicatorFin.mp4'
 
 
 import ftBKG from '../assets/projects/fairtrade/fairtrade.png'
+import ftq from '../assets/projects/fairtrade/q.png'
+import ftflow from '../assets/projects/fairtrade/flow.png'
+
+
 import gameBKG from '../assets/projects/game/rulebkg.jpg'
 
 import foguangBKG from '../assets/projects/foguang/bkg.jpg'
@@ -39,7 +43,7 @@ export {
   brioref,
   briodesign,briodesign2,briotweet,briodetail,brioFin,
   brios1,
-  ftBKG,
+  ftBKG, ftq, ftflow,
   fgIA,
   fgmain,
   fgphoto,
