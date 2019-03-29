@@ -74,12 +74,17 @@ export default class FairTrade extends Component {
             </p>
 
 
+            <div className='split-section'>
+              <div className='split-left'><img src={ftq}/></div>
+              <div className='split-right'>
 
-              <h3 className='section-title'>The Survey</h3>
-              <div className='project-image'><img src={ftq}/></div>
+            <h3 className='section-title'>The Survey</h3>
+
               <p className='first-section-par'>To understand our personas better, we created 2 sets of surveys: 1 is for the kind hearted locals, and the other is for
                 the shoppers (who will receive the donations).
               </p>
+            </div>
+          </div>
 
               <h3 className='section-title'>Personas</h3>
                 <div className='persona-section'>
@@ -111,7 +116,7 @@ export default class FairTrade extends Component {
             <p>We decided to separate the two when they first land on either the web app or the phone app so that they won't be fed up with
               information that they don't care about. </p>
             <p>After choosing what they are, the users can browse either the wish list items (for donor to see if they have the item available) or the
-              items that are available (for the shoppers to see if what they want is already waiting for trade).
+              items that are available (for the shoppers to see if what they want is already waiting for trade).</p>
             </div>
 
 
