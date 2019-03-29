@@ -109,11 +109,13 @@ export default class FairTrade extends Component {
             <div className='project-section'>
               <h2>Wireframe, Prototype and Tests</h2>
               <hr/>
+              <p className='first-section-par'>After figuring out the challenge, the user personas, and the goals, we decided that the app we are creating
+              will be </p>
               <h3 className='section-title'>The Flow</h3>
               <div className='project-image'><img src={ftflow}/></div>
               <p className='first-section-par'>The flow contains 2 parts: part 1 is for donors to post their objects and part 2 is for
               shoppers to trade for the object they would like to get. </p>
-            <p>We decided to separate the two when they first land on either the web app or the phone app so that they won't be fed up with
+              <p>We decided to separate the two when they first land on either the web app or the phone app so that they won't be fed up with
               information that they don't care about. </p>
             <p>After choosing what they are, the users can browse either the wish list items (for donor to see if they have the item available) or the
               items that are available (for the shoppers to see if what they want is already waiting for trade).</p>
