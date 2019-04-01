@@ -27,11 +27,6 @@ const design = {
 }
 
 const tweet = {
-  width: '100%',
-  height: '280px',
-  margin: 'auto',
-  backgroundSize: 'contain',
-  backgroundRepeat: 'no-repeat',
   backgroundImage: `url(${briotweet})`
 }
 
@@ -261,7 +256,7 @@ export default class Briovr extends Component {
 
           <h3 className='section-title'>Social Proof</h3>
           <div className='project-image'>
-            <div style={tweet}></div>
+            <div className='brio-sm-proof' style={tweet}></div>
           </div>
           <p>From our user Marie Graham's tweets, we found that Brio was easy and intuitive for students to build quick prototypes to experience in VR, which was great to hear as we wanted Brio to be a tool for building MVPs.
           </p>

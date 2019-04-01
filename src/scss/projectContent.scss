@@ -2,6 +2,17 @@
   margin-top: 40px;
   max-width: 1000px;
   margin: 40px auto;
+
+  @include largeS{
+    max-width: 744px;
+  }
+
+  @include mediumS{
+    max-width: 368px;
+  }
+  @include small{
+    max-width: calc(100vw-16px);
+  }
 }
 .hero-img{
   height: 600px;
@@ -9,6 +20,10 @@
   background-position: center;
   background-repeat: no-repeat;
   margin-bottom: 40px;
+
+  @include mediumS{
+    height: 300px;
+  }
 }
 
 .project-content{
@@ -17,6 +32,8 @@
   h2,p,ul,h3,a,h4{
     max-width: 700px;
     margin: 32px auto;
+
+
   }
   h1,h2{
     text-align: center;
@@ -26,6 +43,18 @@
     text-align: left;
     color: $black;
     font-weight: 400;
+  }
+
+  iframe{
+    border: none;
+  }
+
+  @include mediumS{
+    max-width: 368px;
+    margin: auto;
+  }
+  @include smallS{
+    max-width: calc(100vw - 16px);
   }
 }
 .project-img{
@@ -56,6 +85,12 @@
   margin: auto;
   display: flex;
   justify-content: space-between;
+
+  @include mediumS{
+    flex-wrap: wrap;
+    flex-direction: column;
+
+  }
   //max-width: 100%;
   //flex-wrap: wrap;
   //margin: auto;
@@ -72,6 +107,16 @@
     border-radius: 4px;
     box-shadow: $dp1 $grey;
     img{width:100px;margin: auto;}
+
+    @include mediumS{
+      margin: 24px auto;
+    }
+    @include xsmall{
+      min-width: 240px;
+      width: 80%;
+    }
+
+
 
     .card-header{
       display: flex;
@@ -96,6 +141,12 @@
   justify-content: flex-start;
   max-width: 800px;
   margin: 40px auto;
+
+  @include mediumS{
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
   .split-left{
     .foguang-photo{
       width: 400px;
@@ -140,4 +191,26 @@ li{
 
 .numbered-list{
   list-style: decimal;
+}
+
+//------------ brio section --------------
+.brio-animation{
+  @include largeS{
+    width: 100%;
+  }
+  @include xsmall{
+    width: 100%;
+  }
+}
+
+.brio-sm-proof{
+  width: 100%;
+  height: 280px;
+  margin: auto;
+  background-size: contain;
+  background-repeat: no-repeat;
+
+  @include mediumS{
+    height: 120px;
+  }
 }

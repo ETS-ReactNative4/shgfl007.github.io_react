@@ -3,6 +3,7 @@ import {Switch, Route} from 'react-router-dom';
 import Project from './projects/ProjectLists'
 import Home from './header/header'
 import About from './about/About'
+import Resume from './resume/Resume'
 
 export default class Main extends Component {
   render() {
@@ -13,6 +14,7 @@ export default class Main extends Component {
         <Route exact path='/' component={Home}/>
         <Route path='/projects' component={Project}/>
         <Route path='/about' component={About}/>
+        <Route path='/resume' component={Resume}/>
 
       </Switch>
     </div>

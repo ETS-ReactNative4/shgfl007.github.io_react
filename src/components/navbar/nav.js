@@ -53,7 +53,7 @@ export default class Nav extends Component {
                     <Link to='/about'>About</Link>
                   </li>
                   <li className='item'>
-                    <a className='link' href="">Résumé</a>
+                    <a className='link' href='https://www.dropbox.com/s/qpqwk9j8s274tod/DanningLu2019.pdf?dl=0' target='_blank'>Résumé</a>
                   </li>
           </ul>
       </nav>

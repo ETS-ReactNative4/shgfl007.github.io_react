@@ -14,6 +14,8 @@ import brioFin from '../assets/projects/briovr/indicatorFin.mp4'
 import ftBKG from '../assets/projects/fairtrade/fairtrade.png'
 import ftq from '../assets/projects/fairtrade/q.png'
 import ftflow from '../assets/projects/fairtrade/flow.png'
+import ftbrand from '../assets/projects/fairtrade/brandId.png'
+import ftfb from '../assets/projects/fairtrade/fb.png'
 
 
 import gameBKG from '../assets/projects/game/rulebkg.jpg'
@@ -32,6 +34,7 @@ import fgflow2 from '../assets/projects/foguang/ROUTE.png'
 import fgui from '../assets/projects/foguang/demo_ui_2.mp4'
 
 import profile from '../assets/img/profile_new.png'
+import resume from '../assets/resume/DanningLu2019.pdf'
 
 
 
@@ -43,7 +46,7 @@ export {
   brioref,
   briodesign,briodesign2,briotweet,briodetail,brioFin,
   brios1,
-  ftBKG, ftq, ftflow,
+  ftBKG, ftq, ftflow, ftbrand, ftfb,
   fgIA,
   fgmain,
   fgphoto,
@@ -52,5 +55,5 @@ export {
   gameBKG,
   foguangBKG,
   fgflow,
-  profile
+  profile, resume
 }
